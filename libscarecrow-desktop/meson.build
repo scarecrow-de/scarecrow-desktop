@@ -120,7 +120,7 @@ gnome.generate_gir(libscarecrow_desktop,
 
 desktop_pc = pkg.generate(
   libraries: libscarecrow_desktop,
-  requires: ['gtk+-3.0', 'gsettings-desktop-schemas'],
+  requires: ['gtk+-3.0', 'scarecrow-gsettings-desktop-schemas'],
   version: meson.project_version(),
   name: 'scarecrow-desktop-3.0',
   filebase: 'scarecrow-desktop-3.0',
