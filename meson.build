@@ -122,8 +122,8 @@ endif
 
 version_xml = configure_file(
   configuration: version_conf,
-  input: 'gnome-version.xml.in',
-  output: 'gnome-version.xml'
+  input: 'scarecrow-version.xml.in',
+  output: 'scarecrow-version.xml'
 )
 install_data(version_xml, install_dir: versiondir)
 
