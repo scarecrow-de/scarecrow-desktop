@@ -131,7 +131,7 @@ static void       pixbuf_blend         (GdkPixbuf  *src,
 					double      alpha);
 
 /* Thumbnail utilities */
-static GdkPixbuf *create_thumbnail_for_filename (GnomeDesktopThumbnailFactory *factory,
+static GdkPixbuf *create_thumbnail_for_filename (ScarecrowDesktopThumbnailFactory *factory,
 						 const char            *filename);
 static gboolean   get_thumb_annotations (GdkPixbuf             *thumb,
 					 int                   *orig_width,
@@ -147,7 +147,7 @@ static gboolean   is_different         (GnomeBG               *bg,
 					const char            *filename);
 static time_t     get_mtime            (const char            *filename);
 static GdkPixbuf *create_img_thumbnail (GnomeBG               *bg,
-					GnomeDesktopThumbnailFactory *factory,
+					ScarecrowDesktopThumbnailFactory *factory,
 					GdkScreen             *screen,
 					int                    dest_width,
 					int                    dest_height,
@@ -1116,7 +1116,7 @@ get_filename_for_size (GnomeBG *bg, gint best_width, gint best_height)
 
 gboolean
 gnome_bg_get_image_size (GnomeBG	       *bg,
-			 GnomeDesktopThumbnailFactory *factory,
+			 ScarecrowDesktopThumbnailFactory *factory,
 			 int                    best_width,
 			 int                    best_height,
 			 int		       *width,
@@ -1163,7 +1163,7 @@ fit_factor (int from_width, int from_height,
  */
 GdkPixbuf *
 gnome_bg_create_thumbnail (GnomeBG               *bg,
-		           GnomeDesktopThumbnailFactory *factory,
+		           ScarecrowDesktopThumbnailFactory *factory,
 			   GdkScreen             *screen,
 			   int                    dest_width,
 			   int                    dest_height)
@@ -1433,7 +1433,7 @@ get_as_slideshow (GnomeBG *bg, const char *filename)
 }
 
 static GdkPixbuf *
-get_as_thumbnail (GnomeBG *bg, GnomeDesktopThumbnailFactory *factory, const char *filename)
+get_as_thumbnail (GnomeBG *bg, ScarecrowDesktopThumbnailFactory *factory, const char *filename)
 {
 	const FileCacheEntry *ent;
 	if ((ent = file_cache_lookup (bg, THUMBNAIL, filename))) {
@@ -1629,7 +1629,7 @@ scale_thumbnail (GDesktopBackgroundStyle placement,
  */
 static GdkPixbuf *
 create_img_thumbnail (GnomeBG                      *bg,
-		      GnomeDesktopThumbnailFactory *factory,
+		      ScarecrowDesktopThumbnailFactory *factory,
 		      GdkScreen                    *screen,
 		      int                           dest_width,
 		      int                           dest_height,
@@ -2146,7 +2146,7 @@ read_slideshow_file (const char *filename,
 
 /* Thumbnail utilities */
 static GdkPixbuf *
-create_thumbnail_for_filename (GnomeDesktopThumbnailFactory *factory,
+create_thumbnail_for_filename (ScarecrowDesktopThumbnailFactory *factory,
 			       const char            *filename)
 {
 	char *thumb;
@@ -2267,7 +2267,7 @@ gnome_bg_changes_with_time (GnomeBG *bg)
  */
 GdkPixbuf *
 gnome_bg_create_frame_thumbnail (GnomeBG			*bg,
-				 GnomeDesktopThumbnailFactory	*factory,
+				 ScarecrowDesktopThumbnailFactory	*factory,
 				 GdkScreen			*screen,
 				 int				 dest_width,
 				 int				 dest_height,
