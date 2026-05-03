@@ -1,6 +1,6 @@
 #include <locale.h>
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libscarecrow-desktop/gnome-wall-clock.h>
+#include <libscarecrow-desktop/scarecrow-wall-clock.h>
 
 static void
 clock_changed (GObject    *object,

@@ -5,7 +5,7 @@
 #include <locale.h>
 #include <glib-object.h>
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libscarecrow-desktop/gnome-languages.h>
+#include <libscarecrow-desktop/scarecrow-languages.h>
 
 int main (int argc, char **argv)
 {

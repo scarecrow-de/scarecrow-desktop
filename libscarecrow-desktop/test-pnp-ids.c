@@ -20,7 +20,7 @@
 
 #define GNOME_DESKTOP_USE_UNSTABLE_API
 
-#include <libscarecrow-desktop/gnome-pnp-ids.h>
+#include <libscarecrow-desktop/scarecrow-pnp-ids.h>
 
 #define NUM_ITERS 500 * 1000
 

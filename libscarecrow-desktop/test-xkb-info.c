@@ -1,5 +1,5 @@
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libscarecrow-desktop/gnome-xkb-info.h>
+#include <libscarecrow-desktop/scarecrow-xkb-info.h>
 int
 main (int argc, char **argv)
 {

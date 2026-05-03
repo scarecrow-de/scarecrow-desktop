@@ -1,6 +1,6 @@
 #include <gtk/gtk.h>
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include "libscarecrow-desktop/gnome-idle-monitor.h"
+#include "libscarecrow-desktop/scarecrow-idle-monitor.h"
 
 #define IDLE_TIME 1000 * 5 /* 5 seconds */
 

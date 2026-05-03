@@ -20,7 +20,7 @@
 #include <gdesktop-enums.h>
 #include <glib.h>
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libscarecrow-desktop/gnome-wall-clock.h>
+#include <libscarecrow-desktop/scarecrow-wall-clock.h>
 #include <locale.h>
 #include <string.h>
 
