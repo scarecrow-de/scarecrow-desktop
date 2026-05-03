@@ -1,11 +1,11 @@
-# Kikongo translation of gnome-desktop.
+# Kikongo translation of scarecrow-desktop.
 # Copyright (C) Listed translators
-# This file is distributed under the same license as the gnome-desktop package.
+# This file is distributed under the same license as the scarecrow-desktop package.
 # Kibavuidi Nsiangani <lundombe01@zaya-dio.com>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop HEAD\n"
+"Project-Id-Version: scarecrow-desktop HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-05 21:41+0200\n"
 "PO-Revision-Date: 2010-10-04 21:48+0100\n"
@@ -149,39 +149,39 @@ msgstr ""
 #. Translators: "Unknown" here is used to identify a monitor for which
 #. * we don't know the vendor. When a vendor is known, the name of the
 #. * vendor is used.
-#: ../libgnome-desktop/display-name.c:265
+#: ../libscarecrow-desktop/display-name.c:265
 msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "dianzenza"
 
-#: ../libgnome-desktop/gnome-desktop-utils.c:133
+#: ../libscarecrow-desktop/scarecrow-desktop-utils.c:133
 msgid "Cannot find a terminal, using xterm, even if it may not work"
 msgstr ""
 "nanga ilemba sala kansi ngieti sadila xterm kaka, kadi nkele ka yi monekene "
 "ko."
 
 #. Translators: a CRTC is a CRT Controller (this is X terminology).
-#: ../libgnome-desktop/gnome-rr.c:444
+#: ../libscarecrow-desktop/gnome-rr.c:444
 #, c-format
 msgid "could not get the screen resources (CRTCs, outputs, modes)"
 msgstr "mambu ma kiansonga (crtc, biduukilu, nsongolo), bu yavewa mo nkatu"
 
-#: ../libgnome-desktop/gnome-rr.c:464
+#: ../libscarecrow-desktop/gnome-rr.c:464
 #, c-format
 msgid "unhandled X error while getting the range of screen sizes"
 msgstr "mpitakani mu X bu ikele baka teezolo bia kiansongalala"
 
-#: ../libgnome-desktop/gnome-rr.c:470
+#: ../libscarecrow-desktop/gnome-rr.c:470
 #, c-format
 msgid "could not get the range of screen sizes"
 msgstr "biteezolo bia kiansongalala, bu ivewa bio nkatu"
 
-#: ../libgnome-desktop/gnome-rr.c:714
+#: ../libscarecrow-desktop/gnome-rr.c:714
 #, c-format
 msgid "RANDR extension is not present"
 msgstr "ki randr ka i monekene ko"
 
-#: ../libgnome-desktop/gnome-rr.c:1090
+#: ../libscarecrow-desktop/gnome-rr.c:1090
 #, c-format
 msgid "could not get information about output %d"
 msgstr "nsangu za kiduukilu %d bu ibaka zo nkatu"
@@ -189,7 +189,7 @@ msgstr "nsangu za kiduukilu %d bu ibaka zo nkatu"
 #. Translators: the "position", "size", and "maximum"
 #. * words here are not keywords; please translate them
 #. * as usual.  A CRTC is a CRT Controller (this is X terminology)
-#: ../libgnome-desktop/gnome-rr.c:1477
+#: ../libscarecrow-desktop/gnome-rr.c:1477
 #, c-format
 msgid ""
 "requested position/size for CRTC %d is outside the allowed limit: position=(%"
@@ -198,21 +198,21 @@ msgstr ""
 "nkubu ulombele mu crtc %d kena va kati kua ndelo zabetila ko: kitudilu=(%d, %"
 "d), teezolo=(%d, %d), yongi=(%d, %d)"
 
-#: ../libgnome-desktop/gnome-rr.c:1513
+#: ../libscarecrow-desktop/gnome-rr.c:1513
 #, c-format
 msgid "could not set the configuration for CRTC %d"
 msgstr "nkubukulu za crtc %d, bu itatanesa zo nkatu"
 
-#: ../libgnome-desktop/gnome-rr.c:1629
+#: ../libscarecrow-desktop/gnome-rr.c:1629
 #, c-format
 msgid "could not get information about CRTC %d"
 msgstr "nsangu za crtc %d, bu yavewa zo nkatu"
 
-#: ../libgnome-desktop/gnome-rr-config.c:501
+#: ../libscarecrow-desktop/gnome-rr-config.c:501
 msgid "Laptop"
 msgstr "nsikidisi a koko"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1162
+#: ../libscarecrow-desktop/gnome-rr-config.c:1162
 #, c-format
 msgid ""
 "none of the saved display configurations matched the active configuration"
@@ -220,22 +220,22 @@ msgstr ""
 "mu nkubukulu zazo zi monekene mu nti yi, ka vena mosi ko yikuenda betila ye "
 "zaku bubu"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1423
+#: ../libscarecrow-desktop/gnome-rr-config.c:1423
 #, c-format
 msgid "CRTC %d cannot drive output %s"
 msgstr "crtc %d, bu kidiatisa %s nkatu"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1430
+#: ../libscarecrow-desktop/gnome-rr-config.c:1430
 #, c-format
 msgid "output %s does not support mode %dx%d@%dHz"
 msgstr " nduukilu %s ka yilendi sadila nsongolo zozo %dx%d@%dHz,"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1441
+#: ../libscarecrow-desktop/gnome-rr-config.c:1441
 #, c-format
 msgid "CRTC %d does not support rotation=%s"
 msgstr "CRTC %d kayizeye mveengulani=%s ko"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1455
+#: ../libscarecrow-desktop/gnome-rr-config.c:1455
 #, c-format
 msgid ""
 "output %s does not have the same parameters as another cloned output:\n"
@@ -248,23 +248,23 @@ msgstr ""
 "bintulani biankulu= (%d, %d), biampa = (%d, %d)\n"
 "mveengulani akulu = %s, mveengulani ampa = %s"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1470
+#: ../libscarecrow-desktop/gnome-rr-config.c:1470
 #, c-format
 msgid "cannot clone to output %s"
 msgstr "kileendi fuanikisa ku %s ko"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1639
+#: ../libscarecrow-desktop/gnome-rr-config.c:1639
 #, c-format
 msgid "Trying modes for CRTC %d\n"
 msgstr "nsongolo za crtc ngieti meka: %d\n"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1663
+#: ../libscarecrow-desktop/gnome-rr-config.c:1663
 #, c-format
 msgid "CRTC %d: trying mode %dx%d@%dHz with output at %dx%d@%dHz (pass %d)\n"
 msgstr ""
 "CRTC %d: ngita meka  nsongolo yi %dx%d@%dHz ye %dx%d@%dHz (bua mbote %d)\n"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1710
+#: ../libscarecrow-desktop/gnome-rr-config.c:1710
 #, c-format
 msgid ""
 "could not assign CRTCs to outputs:\n"
@@ -273,7 +273,7 @@ msgstr ""
 "zi crtc ye binsongalala, bu i ba waawasa nkatu\n"
 "%s"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1714
+#: ../libscarecrow-desktop/gnome-rr-config.c:1714
 #, c-format
 msgid ""
 "none of the selected modes were compatible with the possible modes:\n"
@@ -285,7 +285,7 @@ msgstr ""
 #. Translators: the "requested", "minimum", and
 #. * "maximum" words here are not keywords; please
 #. * translate them as usual.
-#: ../libgnome-desktop/gnome-rr-config.c:1796
+#: ../libscarecrow-desktop/gnome-rr-config.c:1796
 #, c-format
 msgid ""
 "required virtual size does not fit available size: requested=(%d, %d), "
@@ -300,6 +300,6 @@ msgstr ""
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../libgnome-desktop/gnome-rr-labeler.c:207
+#: ../libscarecrow-desktop/gnome-rr-labeler.c:207
 msgid "Mirror Screens"
 msgstr "bitalatala biole"

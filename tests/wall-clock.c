@@ -20,7 +20,7 @@
 #include <gdesktop-enums.h>
 #include <glib.h>
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include <libgnome-desktop/gnome-wall-clock.h>
+#include <libscarecrow-desktop/gnome-wall-clock.h>
 #include <locale.h>
 #include <string.h>
 
@@ -130,7 +130,7 @@ test_clock_format_setting (void)
 	}
 	save_locale = uselocale (locale);
 
-	settings = g_settings_new ("org.gnome.desktop.interface");
+	settings = g_settings_new ("io.github.scarecrow_de.desktop.interface");
 
 	/* In 12h format, the string ends with AM or PM */
 	g_settings_set_enum (settings, "clock-format", G_DESKTOP_CLOCK_FORMAT_12H);
@@ -181,7 +181,7 @@ test_notify_clock (void)
 	GSettings *settings;
 
 	main_loop = g_main_loop_new (NULL, FALSE);
-	settings = g_settings_new ("org.gnome.desktop.interface");
+	settings = g_settings_new ("io.github.scarecrow_de.desktop.interface");
 
 	/* Show seconds so we don't have to wait too long for the callback */
 	g_settings_set_boolean (settings, "clock-show-seconds", TRUE);
@@ -210,7 +210,7 @@ test_weekday_setting (void)
 	locale = newlocale (LC_ALL_MASK, "C", (locale_t) 0);
 	g_assert_true (locale != (locale_t)0);
 	save_locale = uselocale (locale);
-	settings = g_settings_new ("org.gnome.desktop.interface");
+	settings = g_settings_new ("io.github.scarecrow_de.desktop.interface");
 
 	/* Set 24h format, so that the only alphabetical part will be the weekday */
 	g_settings_set_enum (settings, "clock-format", G_DESKTOP_CLOCK_FORMAT_24H);

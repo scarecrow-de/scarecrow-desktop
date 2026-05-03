@@ -1,5 +1,5 @@
-# translation of gnome-desktop.master.ta.po to Tamil
-# Tamil translation of Gnome-Desktop messages.
+# translation of scarecrow-desktop.master.ta.po to Tamil
+# Tamil translation of scarecrow-desktop messages.
 # Copyright (C) 2001, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
 #
 # Dinesh Nadarajah <n_dinesh@yahoo.com>, 2001.
@@ -11,7 +11,7 @@
 # Shantha kumar <shkumar@redhat.com>, 2012, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop.master.ta\n"
+"Project-Id-Version: scarecrow-desktop.master.ta\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "desktop&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2013-10-21 21:26+0000\n"
@@ -29,27 +29,27 @@ msgstr ""
 "\n"
 "\n"
 
-#: ../libgnome-desktop/gnome-languages.c:718
+#: ../libscarecrow-desktop/gnome-languages.c:718
 msgid "Unspecified"
 msgstr "குறிப்பிடப்படாத"
 
-#: ../libgnome-desktop/gnome-rr-config.c:743
+#: ../libscarecrow-desktop/gnome-rr-config.c:743
 #, c-format
 msgid "CRTC %d cannot drive output %s"
 msgstr "CRTC %d, வெளியீடு  %s ஐ இயக்க முடியவில்லை"
 
-#: ../libgnome-desktop/gnome-rr-config.c:750
+#: ../libscarecrow-desktop/gnome-rr-config.c:750
 #, c-format
 msgid "output %s does not support mode %dx%d@%dHz"
 msgstr "வெளியீடு %s,  %dx%d@%dHz பாங்கை ஆதரிக்கவில்லை"
 
-#: ../libgnome-desktop/gnome-rr-config.c:761
+#: ../libscarecrow-desktop/gnome-rr-config.c:761
 #, c-format
 #| msgid "CRTC %d does not support rotation=%s"
 msgid "CRTC %d does not support rotation=%d"
 msgstr "CRTC %d இல் rotation=%d ஐ வசதி இல்லை"
 
-#: ../libgnome-desktop/gnome-rr-config.c:774
+#: ../libscarecrow-desktop/gnome-rr-config.c:774
 #, c-format
 #| msgid ""
 #| "output %s does not have the same parameters as another cloned output:\n"
@@ -68,24 +68,24 @@ msgstr ""
 "தற்போதைய ஆயத்தொலைவுகள் = (%d, %d), புதிய ஆயத்தொலைவுகள் = (%d, %d)\n"
 "தற்போதைய சுழற்சி = %d, புதிய சுழற்சி = %d"
 
-#: ../libgnome-desktop/gnome-rr-config.c:789
+#: ../libscarecrow-desktop/gnome-rr-config.c:789
 #, c-format
 msgid "cannot clone to output %s"
 msgstr "வெளியீடு %s ஐ நகலாக்க முடியவில்லை"
 
-#: ../libgnome-desktop/gnome-rr-config.c:915
+#: ../libscarecrow-desktop/gnome-rr-config.c:915
 #, c-format
 msgid "Trying modes for CRTC %d\n"
 msgstr "CRTC %d க்கு பாங்குகளை முயற்சிக்கிறது\n"
 
-#: ../libgnome-desktop/gnome-rr-config.c:939
+#: ../libscarecrow-desktop/gnome-rr-config.c:939
 #, c-format
 msgid "CRTC %d: trying mode %dx%d@%dHz with output at %dx%d@%dHz (pass %d)\n"
 msgstr ""
 "CRTC %d: %dx%d@%dHz பாங்கை வெளியீட்டுடன் %dx%d@%dHz இல் முயற்சிக்கிறது (pass %"
 "d)\n"
 
-#: ../libgnome-desktop/gnome-rr-config.c:986
+#: ../libscarecrow-desktop/gnome-rr-config.c:986
 #, c-format
 msgid ""
 "could not assign CRTCs to outputs:\n"
@@ -94,7 +94,7 @@ msgstr ""
 "வெளியீடுகளுக்கு எந்த சிஆர்டிசி க்களையும் பொறுப்பாக்க முடியவில்லை:\n"
 "%s"
 
-#: ../libgnome-desktop/gnome-rr-config.c:990
+#: ../libscarecrow-desktop/gnome-rr-config.c:990
 #, c-format
 msgid ""
 "none of the selected modes were compatible with the possible modes:\n"
@@ -106,7 +106,7 @@ msgstr ""
 #. Translators: the "requested", "minimum", and
 #. * "maximum" words here are not keywords; please
 #. * translate them as usual.
-#: ../libgnome-desktop/gnome-rr-config.c:1071
+#: ../libscarecrow-desktop/gnome-rr-config.c:1071
 #, c-format
 msgid ""
 "required virtual size does not fit available size: requested=(%d, %d), "
@@ -117,67 +117,67 @@ msgstr ""
 
 #. Translators: This is the time format with full date used
 #. in 24-hour mode.
-#: ../libgnome-desktop/gnome-wall-clock.c:270
+#: ../libscarecrow-desktop/gnome-wall-clock.c:270
 #| msgid "%a %b %e, %R"
 msgid "%a %b %e, %R:%S"
 msgstr "%a %b %e, %R:%S"
 
-#: ../libgnome-desktop/gnome-wall-clock.c:271
+#: ../libscarecrow-desktop/gnome-wall-clock.c:271
 msgid "%a %b %e, %R"
 msgstr "%a %b %e, %R"
 
 #. Translators: This is the time format with day used
 #. in 24-hour mode.
-#: ../libgnome-desktop/gnome-wall-clock.c:275
+#: ../libscarecrow-desktop/gnome-wall-clock.c:275
 #| msgid "%a %R∶%S"
 msgid "%a %R:%S"
 msgstr "%a %R:%S"
 
-#: ../libgnome-desktop/gnome-wall-clock.c:276
+#: ../libscarecrow-desktop/gnome-wall-clock.c:276
 msgid "%a %R"
 msgstr "%a %R"
 
 #. Translators: This is the time format without date used
 #. in 24-hour mode.
-#: ../libgnome-desktop/gnome-wall-clock.c:280
+#: ../libscarecrow-desktop/gnome-wall-clock.c:280
 msgid "%R:%S"
 msgstr "%R:%S"
 
-#: ../libgnome-desktop/gnome-wall-clock.c:280
+#: ../libscarecrow-desktop/gnome-wall-clock.c:280
 msgid "%R"
 msgstr "%R"
 
 #. Translators: This is a time format with full date used
 #. for AM/PM.
-#: ../libgnome-desktop/gnome-wall-clock.c:286
+#: ../libscarecrow-desktop/gnome-wall-clock.c:286
 #| msgid "%a %b %e, %l∶%M∶%S %p"
 msgid "%a %b %e, %l:%M:%S %p"
 msgstr "%a %b %e, %l:%M:%S %p"
 
-#: ../libgnome-desktop/gnome-wall-clock.c:287
+#: ../libscarecrow-desktop/gnome-wall-clock.c:287
 #| msgid "%a %b %e, %l∶%M %p"
 msgid "%a %b %e, %l:%M %p"
 msgstr "%a %b %e, %l:%M %p"
 
 #. Translators: This is a time format with day used
 #. for AM/PM.
-#: ../libgnome-desktop/gnome-wall-clock.c:291
+#: ../libscarecrow-desktop/gnome-wall-clock.c:291
 #| msgid "%l:%M:%S %p"
 msgid "%a %l:%M:%S %p"
 msgstr "%a %l:%M:%S %p"
 
-#: ../libgnome-desktop/gnome-wall-clock.c:292
+#: ../libscarecrow-desktop/gnome-wall-clock.c:292
 #| msgid "%l:%M %p"
 msgid "%a %l:%M %p"
 msgstr "%a %l:%M %p"
 
 #. Translators: This is a time format without date used
 #. for AM/PM.
-#: ../libgnome-desktop/gnome-wall-clock.c:296
+#: ../libscarecrow-desktop/gnome-wall-clock.c:296
 msgid "%l:%M:%S %p"
 msgstr "%l:%M:%S %p"
 
-#: ../libgnome-desktop/gnome-wall-clock.c:297
+#: ../libscarecrow-desktop/gnome-wall-clock.c:297
 msgid "%l:%M %p"
 msgstr "%l:%M %p"
 

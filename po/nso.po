@@ -1,12 +1,12 @@
-# Northern Sotho translation of gnome-desktop.
+# Northern Sotho translation of scarecrow-desktop.
 # Copyright (C) 2004 Zuza Software Foundation (Translate.org.za)
-# This file is distributed under the same license as the gnome-desktop package.
+# This file is distributed under the same license as the scarecrow-desktop package.
 #
 # Zuza Software Foundation <info@translate.org.za>, 2004
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop HEAD\n"
+"Project-Id-Version: scarecrow-desktop HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-01-11 08:59+0000\n"
 "PO-Revision-Date: 2004-11-29 13:02+0200\n"
@@ -176,192 +176,192 @@ msgstr ""
 "ka 1997; ba banti ba tsenthite letsogo ka ditsela te dingwe te bohlokwa, go "
 "akaretwa diphetolelo, ditweleto, le kgonthieto ya khwaliti."
 
-#: libgnome-desktop/gnome-desktop-item.c:209
-#: libgnome-desktop/gnome-desktop-item.c:579
+#: libscarecrow-desktop/scarecrow-desktop-item.c:209
+#: libscarecrow-desktop/scarecrow-desktop-item.c:579
 #, c-format
 msgid "Error reading file '%s': %s"
 msgstr "Phoo ya go bala faele ya '%s': %s"
 
-#: libgnome-desktop/gnome-desktop-item.c:277
+#: libscarecrow-desktop/scarecrow-desktop-item.c:277
 #, c-format
 msgid "Error rewinding file '%s': %s"
 msgstr "Phoo ya go bueta faele ya '%s': %s morago"
 
-#: libgnome-desktop/gnome-desktop-item.c:361
-#: libgnome-desktop/gnome-desktop-item.c:3586
+#: libscarecrow-desktop/scarecrow-desktop-item.c:361
+#: libscarecrow-desktop/scarecrow-desktop-item.c:3586
 msgid "No name"
 msgstr "Ga go na leina"
 
-#: libgnome-desktop/gnome-desktop-item.c:594
+#: libscarecrow-desktop/scarecrow-desktop-item.c:594
 #, c-format
 msgid "File '%s' is not a regular file or directory."
 msgstr "Faele ya '%s' ga se faele ya ka mehla goba thupeto."
 
-#: libgnome-desktop/gnome-desktop-item.c:745
+#: libscarecrow-desktop/scarecrow-desktop-item.c:745
 msgid "No filename to save to"
 msgstr "Ga go na leina la faele yeo go ka bolokelwago go yona"
 
-#: libgnome-desktop/gnome-desktop-item.c:1700
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1700
 #, c-format
 msgid "Starting %s"
 msgstr "Go thoma %s"
 
-#: libgnome-desktop/gnome-desktop-item.c:1930
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1930
 msgid "No URL to launch"
 msgstr "Ga go na STS ye e ka tsebagatwago"
 
-#: libgnome-desktop/gnome-desktop-item.c:1940
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1940
 msgid "Not a launchable item"
 msgstr "Ga se selo se se ka tsebagatwago"
 
-#: libgnome-desktop/gnome-desktop-item.c:1950
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1950
 msgid "No command (Exec) to launch"
 msgstr "Ga go na taelo (Phetho) ya gore go tsebagatwe"
 
-#: libgnome-desktop/gnome-desktop-item.c:1963
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1963
 msgid "Bad command (Exec) to launch"
 msgstr "Taelo e mpe (Phetho) ya gore go tsebagatwe"
 
-#: libgnome-desktop/gnome-desktop-item.c:3643
+#: libscarecrow-desktop/scarecrow-desktop-item.c:3643
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "Go tsenya khoutu mo go sa tsebjego ga: %s"
 
-#: libgnome-desktop/gnome-desktop-item.c:3874
+#: libscarecrow-desktop/scarecrow-desktop-item.c:3874
 #, c-format
 msgid "Error writing file '%s': %s"
 msgstr "Phošo ya go ngwala faele ya '%s': %s"
 
-#: libgnome-desktop/gnome-ditem-edit.c:205
-#: libgnome-desktop/gnome-ditem-edit.c:213
+#: libscarecrow-desktop/gnome-ditem-edit.c:205
+#: libscarecrow-desktop/gnome-ditem-edit.c:213
 msgid "Directory"
 msgstr "Thupeto"
 
-#: libgnome-desktop/gnome-ditem-edit.c:209
+#: libscarecrow-desktop/gnome-ditem-edit.c:209
 msgid "Application"
 msgstr "Tirio"
 
-#: libgnome-desktop/gnome-ditem-edit.c:216
+#: libscarecrow-desktop/gnome-ditem-edit.c:216
 msgid "Link"
 msgstr "Kgokaganyo"
 
-#: libgnome-desktop/gnome-ditem-edit.c:218
+#: libscarecrow-desktop/gnome-ditem-edit.c:218
 msgid "FSDevice"
 msgstr "Sediriwa sa FS"
 
-#: libgnome-desktop/gnome-ditem-edit.c:220
+#: libscarecrow-desktop/gnome-ditem-edit.c:220
 msgid "MIME Type"
 msgstr "Mohuta wa MIME"
 
-#: libgnome-desktop/gnome-ditem-edit.c:222
+#: libscarecrow-desktop/gnome-ditem-edit.c:222
 msgid "Service"
 msgstr "Tirelo"
 
-#: libgnome-desktop/gnome-ditem-edit.c:224
+#: libscarecrow-desktop/gnome-ditem-edit.c:224
 msgid "ServiceType"
 msgstr "Mohuta wa Tirelo"
 
-#: libgnome-desktop/gnome-ditem-edit.c:310
+#: libscarecrow-desktop/gnome-ditem-edit.c:310
 msgid "_URL:"
 msgstr "_STS:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:313
-#: libgnome-desktop/gnome-ditem-edit.c:380
+#: libscarecrow-desktop/gnome-ditem-edit.c:313
+#: libscarecrow-desktop/gnome-ditem-edit.c:380
 msgid "Comm_and:"
 msgstr "Tae_lo:"
 
 #. Name
-#: libgnome-desktop/gnome-ditem-edit.c:334
+#: libscarecrow-desktop/gnome-ditem-edit.c:334
 msgid "_Name:"
 msgstr "_Leina:"
 
 #. Generic Name
-#: libgnome-desktop/gnome-ditem-edit.c:351
+#: libscarecrow-desktop/gnome-ditem-edit.c:351
 msgid "_Generic name:"
 msgstr "_Leina la kakareto:"
 
 #. Comment
-#: libgnome-desktop/gnome-ditem-edit.c:368
+#: libscarecrow-desktop/gnome-ditem-edit.c:368
 msgid "Co_mment:"
 msgstr "Tlh_aloso:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:384
+#: libscarecrow-desktop/gnome-ditem-edit.c:384
 msgid "Browse"
 msgstr "Fetleka"
 
-#: libgnome-desktop/gnome-ditem-edit.c:395
+#: libscarecrow-desktop/gnome-ditem-edit.c:395
 msgid "_Type:"
 msgstr "_Mohuta:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:412
+#: libscarecrow-desktop/gnome-ditem-edit.c:412
 msgid "_Icon:"
 msgstr "_Leswao:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:422
+#: libscarecrow-desktop/gnome-ditem-edit.c:422
 msgid "Browse icons"
 msgstr "Fetleka maswao"
 
-#: libgnome-desktop/gnome-ditem-edit.c:436
+#: libscarecrow-desktop/gnome-ditem-edit.c:436
 msgid "Run in t_erminal"
 msgstr "Diria kgoka_gano ya dithapo"
 
-#: libgnome-desktop/gnome-ditem-edit.c:652
-#: libgnome-desktop/gnome-ditem-edit.c:750
+#: libscarecrow-desktop/gnome-ditem-edit.c:652
+#: libscarecrow-desktop/gnome-ditem-edit.c:750
 msgid "Language"
 msgstr "Leleme"
 
-#: libgnome-desktop/gnome-ditem-edit.c:657
-#: libgnome-desktop/gnome-ditem-edit.c:757
+#: libscarecrow-desktop/gnome-ditem-edit.c:657
+#: libscarecrow-desktop/gnome-ditem-edit.c:757
 msgid "Name"
 msgstr "Leina"
 
-#: libgnome-desktop/gnome-ditem-edit.c:662
-#: libgnome-desktop/gnome-ditem-edit.c:764
+#: libscarecrow-desktop/gnome-ditem-edit.c:662
+#: libscarecrow-desktop/gnome-ditem-edit.c:764
 msgid "Generic name"
 msgstr "Leina la kakareto"
 
-#: libgnome-desktop/gnome-ditem-edit.c:667
-#: libgnome-desktop/gnome-ditem-edit.c:773
+#: libscarecrow-desktop/gnome-ditem-edit.c:667
+#: libscarecrow-desktop/gnome-ditem-edit.c:773
 msgid "Comment"
 msgstr "Tlhaloso"
 
-#: libgnome-desktop/gnome-ditem-edit.c:702
+#: libscarecrow-desktop/gnome-ditem-edit.c:702
 msgid "_Try this before using:"
 msgstr "_Leka se pele o ka diria:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:713
+#: libscarecrow-desktop/gnome-ditem-edit.c:713
 msgid "_Documentation:"
 msgstr "_Go Tweleta:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:724
+#: libscarecrow-desktop/gnome-ditem-edit.c:724
 msgid "_Name/Comment translations:"
 msgstr "_Leina/Tlhaloso ya Diphetolelo:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:775
+#: libscarecrow-desktop/gnome-ditem-edit.c:775
 msgid "_Add/Set"
 msgstr "_Oketa/Beakanya"
 
-#: libgnome-desktop/gnome-ditem-edit.c:781
+#: libscarecrow-desktop/gnome-ditem-edit.c:781
 msgid "Add or Set Name/Comment Translations"
 msgstr "Oketa goba Beakanya Leina/Tlhaloso ya Diphetolelo"
 
-#: libgnome-desktop/gnome-ditem-edit.c:783
+#: libscarecrow-desktop/gnome-ditem-edit.c:783
 msgid "Re_move"
 msgstr "Tl_oa"
 
-#: libgnome-desktop/gnome-ditem-edit.c:788
+#: libscarecrow-desktop/gnome-ditem-edit.c:788
 msgid "Remove Name/Comment Translation"
 msgstr "Tloa Leina/Tlhaloso ya Diphetolelo"
 
-#: libgnome-desktop/gnome-ditem-edit.c:804
+#: libscarecrow-desktop/gnome-ditem-edit.c:804
 msgid "Basic"
 msgstr "Motheo"
 
-#: libgnome-desktop/gnome-ditem-edit.c:812
+#: libscarecrow-desktop/gnome-ditem-edit.c:812
 msgid "Advanced"
 msgstr "Twete pele"
 
-#: libgnome-desktop/gnome-hint.c:175
+#: libscarecrow-desktop/gnome-hint.c:175
 msgid "_Show Hints at Startup"
 msgstr "_Bontha Keleto Mathomong"
 

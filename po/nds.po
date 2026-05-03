@@ -1,11 +1,11 @@
-# Low German translation for gnome-desktop.
-# Copyright (C) 2009 gnome-desktop's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-desktop package.
+# Low German translation for scarecrow-desktop.
+# Copyright (C) 2009 scarecrow-desktop's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-desktop package.
 # Nils-Christoph Fiedler <linux@medienkompanie.de>, 2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop master\n"
+"Project-Id-Version: scarecrow-desktop master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "desktop&component=general\n"
 "POT-Creation-Date: 2009-10-22 13:13+0000\n"
@@ -154,102 +154,102 @@ msgstr ""
 "GNOME in annern wichdigen Rebeeten as in de Översetten, Dokumentatschoon un "
 "Qualitätssekern leest."
 
-#: ../libgnome-desktop/display-name.c:262
+#: ../libscarecrow-desktop/display-name.c:262
 msgid "Laptop"
 msgstr "Klapprekner"
 
-#: ../libgnome-desktop/display-name.c:270
+#: ../libscarecrow-desktop/display-name.c:270
 msgid "Unknown"
 msgstr "Unbekannt"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:220
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:220
 #, c-format
 msgid "Error reading file '%s': %s"
 msgstr "Problem bi'm Lesen vun de Datei '%s': %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:288
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:288
 #, c-format
 msgid "Error rewinding file '%s': %s"
 msgstr "Fehler torüggspeelende Datei '%s': %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:377
-#: ../libgnome-desktop/gnome-desktop-item.c:3519
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:377
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3519
 msgid "No name"
 msgstr "Keen Naam"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:604
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:604
 #, c-format
 msgid "File '%s' is not a regular file or directory."
 msgstr "Datei '%s' is keen/e goode Datei or Verteeknis."
 
-#: ../libgnome-desktop/gnome-desktop-item.c:788
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:788
 #, c-format
 msgid "Error cannot find file id '%s'"
 msgstr "Fehler: Kann de Datei mit de ID '%s' nich finnen"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:834
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:834
 #, c-format
 msgid "No filename to save to"
 msgstr "Keen Dateinaam to'n spiekern"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:1819
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:1819
 #, c-format
 msgid "Starting %s"
 msgstr "Starte %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2055
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2055
 #, c-format
 msgid "No URL to launch"
 msgstr "Keene URL to'm starten"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2071
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2071
 #, c-format
 msgid "Not a launchable item"
 msgstr "Keene startbare Datei"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2081
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2081
 #, c-format
 msgid "No command (Exec) to launch"
 msgstr "Keene Order (Exec) to'm starten"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2094
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2094
 #, c-format
 msgid "Bad command (Exec) to launch"
 msgstr "Ungültige Order (Exec) to'm starten"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:3575
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3575
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "Unbekannte Koderen vun: %s"
 
-#: ../libgnome-desktop/gnome-desktop-utils.c:133
+#: ../libscarecrow-desktop/scarecrow-desktop-utils.c:133
 msgid "Cannot find a terminal, using xterm, even if it may not work"
 msgstr ""
 "Künn keen Terminal finnen, dat xterm bruken deit, ook as dat nich geiht"
 
-#: ../libgnome-desktop/gnome-rr.c:405
+#: ../libscarecrow-desktop/gnome-rr.c:405
 #, c-format
 msgid "could not get the screen resources (CRTCs, outputs, modes)"
 msgstr "künn de Billschirmmiddel nich rutkregen (CRTCs, outputs, modes)"
 
-#: ../libgnome-desktop/gnome-rr.c:425
+#: ../libscarecrow-desktop/gnome-rr.c:425
 #, c-format
 msgid "unhandled X error while getting the range of screen sizes"
 msgstr ""
 "X Fehler bi'n Holen vun de Avmessen vun de Billschirmgröte, de nich "
 "handtohebben is"
 
-#: ../libgnome-desktop/gnome-rr.c:431
+#: ../libscarecrow-desktop/gnome-rr.c:431
 #, c-format
 msgid "could not get the range of screen sizes"
 msgstr "künn de Billschirmgröte nich rutkregen"
 
-#: ../libgnome-desktop/gnome-rr.c:657
+#: ../libscarecrow-desktop/gnome-rr.c:657
 #, c-format
 msgid "RANDR extension is not present"
 msgstr "RANDR Tosatt is nich verfögbar"
 
-#: ../libgnome-desktop/gnome-rr.c:923
+#: ../libscarecrow-desktop/gnome-rr.c:923
 #, c-format
 msgid "could not get information about output %d"
 msgstr "künn keene Informatschoonen kreegen över Utgav %d"
@@ -257,7 +257,7 @@ msgstr "künn keene Informatschoonen kreegen över Utgav %d"
 #. Translators: the "position", "size", and "maximum"
 #. * words here are not keywords; please translate them
 #. * as usual.  A CRTC is a CRT Controller (this is X terminology)
-#: ../libgnome-desktop/gnome-rr.c:1261
+#: ../libscarecrow-desktop/gnome-rr.c:1261
 #, c-format
 msgid ""
 "requested position/size for CRTC %d is outside the allowed limit: position=(%"
@@ -266,17 +266,17 @@ msgstr ""
 "avfragte Positschoon/Gröte för CRTC %d is buten vun de tolaten Grenz: "
 "Positschoon(%d, %d), Grote=(%d, %d), Maximum=(%d, %d)"
 
-#: ../libgnome-desktop/gnome-rr.c:1297
+#: ../libscarecrow-desktop/gnome-rr.c:1297
 #, c-format
 msgid "could not set the configuration for CRTC %d"
 msgstr "künn nich de akerate Konfiguratschoon setten för CRTC %d"
 
-#: ../libgnome-desktop/gnome-rr.c:1409
+#: ../libscarecrow-desktop/gnome-rr.c:1409
 #, c-format
 msgid "could not get information about CRTC %d"
 msgstr "künn keene Informatschoonen rutkregen för CRTC %d"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1159
+#: ../libscarecrow-desktop/gnome-rr-config.c:1159
 #, c-format
 msgid ""
 "none of the saved display configurations matched the active configuration"
@@ -287,7 +287,7 @@ msgstr ""
 #. Translators: the "requested", "minimum", and
 #. * "maximum" words here are not keywords; please
 #. * translate them as usual.
-#: ../libgnome-desktop/gnome-rr-config.c:1682
+#: ../libscarecrow-desktop/gnome-rr-config.c:1682
 #, c-format
 msgid ""
 "required virtual size does not fit available size: requested=(%d, %d), "
@@ -296,7 +296,7 @@ msgstr ""
 "nödige virtuelle Gröte passt nich in verfögbare Gröte: nödig=(%d, %d), "
 "minimum=(%d, %d), maximum=(%d, %d)"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1696
+#: ../libscarecrow-desktop/gnome-rr-config.c:1696
 #, c-format
 msgid "could not find a suitable configuration of screens"
 msgstr "keene passende Konfiguratschoon för'n Billschirm funnen"
@@ -307,6 +307,6 @@ msgstr "keene passende Konfiguratschoon för'n Billschirm funnen"
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../libgnome-desktop/gnome-rr-labeler.c:210
+#: ../libscarecrow-desktop/gnome-rr-labeler.c:210
 msgid "Mirror Screens"
 msgstr "Speegelbillschirme"

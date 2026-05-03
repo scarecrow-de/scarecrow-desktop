@@ -1,9 +1,9 @@
-# GNOME-desktop'i eesti keele tõlge.
-# Estonian translation of GNOME-desktop.
+# scarecrow-desktop'i eesti keele tõlge.
+# Estonian translation of scarecrow-desktop.
 #
 # Copyright (C) 1999-2006 Free Software Foundation, Inc.
 # Copyright (C) 2007-2010 The GNOME Project.
-# This file is distributed under the same license as the gnome-desktop package.
+# This file is distributed under the same license as the scarecrow-desktop package.
 #
 # Lauris Kaplinski <lauris@ariman.ee>, 1999.
 # Ilmar Kerm <ikerm@hot.ee>, 2001, 2002.
@@ -14,7 +14,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop HEAD\n"
+"Project-Id-Version: scarecrow-desktop HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "desktop&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2013-09-20 19:07+0000\n"

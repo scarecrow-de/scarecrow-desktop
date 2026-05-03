@@ -25,7 +25,7 @@
 #include <locale.h>
 #include <gtk/gtk.h>
 #define GNOME_DESKTOP_USE_UNSTABLE_API 1
-#include <libgnome-desktop/gnome-wall-clock.h>
+#include <libscarecrow-desktop/gnome-wall-clock.h>
 
 static const char *output_dir = NULL;
 

@@ -2,7 +2,7 @@
 # Please keep this file sorted alphabetically.
 # When adding a file here, make sure that the entry point in the API of this
 # file calls _gnome_desktop_init_i18n ()
-libgnome-desktop/gnome-languages.c
-libgnome-desktop/gnome-rr.c
-libgnome-desktop/gnome-rr-config.c
-libgnome-desktop/gnome-wall-clock.c
+libscarecrow-desktop/gnome-languages.c
+libscarecrow-desktop/gnome-rr.c
+libscarecrow-desktop/gnome-rr-config.c
+libscarecrow-desktop/gnome-wall-clock.c

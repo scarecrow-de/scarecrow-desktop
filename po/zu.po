@@ -1,12 +1,12 @@
-# Zulu translation of gnome-desktop.
+# Zulu translation of scarecrow-desktop.
 # Copyright (C) 2004 Zuza Software Foundation (Translate.org.za)
-# This file is distributed under the same license as the gnome-desktop package.
+# This file is distributed under the same license as the scarecrow-desktop package.
 #
 # Zuza Software Foundation <info@translate.org.za>, 2004
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop HEAD\n"
+"Project-Id-Version: scarecrow-desktop HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-01-11 08:59+0000\n"
 "PO-Revision-Date: 2004-12-02 13:02+0200\n"
@@ -172,192 +172,192 @@ msgstr ""
 "ngo-1997; abanye abaningi banikele ngezinye izindlela ezibalulekile, kufakwa "
 "nokuhunyushwa, ukubhalwa, nokugcizelela okuhle."
 
-#: libgnome-desktop/gnome-desktop-item.c:209
-#: libgnome-desktop/gnome-desktop-item.c:579
+#: libscarecrow-desktop/scarecrow-desktop-item.c:209
+#: libscarecrow-desktop/scarecrow-desktop-item.c:579
 #, c-format
 msgid "Error reading file '%s': %s"
 msgstr "Iphutha ekufundeni ihele '%s': %s"
 
-#: libgnome-desktop/gnome-desktop-item.c:277
+#: libscarecrow-desktop/scarecrow-desktop-item.c:277
 #, c-format
 msgid "Error rewinding file '%s': %s"
 msgstr "Iphutha lokubuyekeza ihele '%s': %s"
 
-#: libgnome-desktop/gnome-desktop-item.c:361
-#: libgnome-desktop/gnome-desktop-item.c:3586
+#: libscarecrow-desktop/scarecrow-desktop-item.c:361
+#: libscarecrow-desktop/scarecrow-desktop-item.c:3586
 msgid "No name"
 msgstr "Akuna gama"
 
-#: libgnome-desktop/gnome-desktop-item.c:594
+#: libscarecrow-desktop/scarecrow-desktop-item.c:594
 #, c-format
 msgid "File '%s' is not a regular file or directory."
 msgstr "Ihele '%s' akusilona umkhondo noma ihele elijwayelekile."
 
-#: libgnome-desktop/gnome-desktop-item.c:745
+#: libscarecrow-desktop/scarecrow-desktop-item.c:745
 msgid "No filename to save to"
 msgstr "Akuna gama lohele onga hlenga kulo"
 
-#: libgnome-desktop/gnome-desktop-item.c:1700
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1700
 #, c-format
 msgid "Starting %s"
 msgstr "Siqala %s"
 
-#: libgnome-desktop/gnome-desktop-item.c:1930
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1930
 msgid "No URL to launch"
 msgstr "Akuna URL ukuthi sithumele"
 
-#: libgnome-desktop/gnome-desktop-item.c:1940
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1940
 msgid "Not a launchable item"
 msgstr "Akusiyona into engathunyelwa"
 
-#: libgnome-desktop/gnome-desktop-item.c:1950
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1950
 msgid "No command (Exec) to launch"
 msgstr "Akunakuyalelwa ukuba sithumele (Exec)"
 
-#: libgnome-desktop/gnome-desktop-item.c:1963
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1963
 msgid "Bad command (Exec) to launch"
 msgstr "Ukuyalelwa okubi ukuti kungathunyelwa (Exec)"
 
-#: libgnome-desktop/gnome-desktop-item.c:3643
+#: libscarecrow-desktop/scarecrow-desktop-item.c:3643
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "Ukubhalwa kwemiyalo engaziwa: %s"
 
-#: libgnome-desktop/gnome-desktop-item.c:3874
+#: libscarecrow-desktop/scarecrow-desktop-item.c:3874
 #, c-format
 msgid "Error writing file '%s': %s"
 msgstr "Ihele lombhalo oyiphutha '%s': %s"
 
-#: libgnome-desktop/gnome-ditem-edit.c:205
-#: libgnome-desktop/gnome-ditem-edit.c:213
+#: libscarecrow-desktop/gnome-ditem-edit.c:205
+#: libscarecrow-desktop/gnome-ditem-edit.c:213
 msgid "Directory"
 msgstr "Umkhondo"
 
-#: libgnome-desktop/gnome-ditem-edit.c:209
+#: libscarecrow-desktop/gnome-ditem-edit.c:209
 msgid "Application"
 msgstr "Isithobo"
 
-#: libgnome-desktop/gnome-ditem-edit.c:216
+#: libscarecrow-desktop/gnome-ditem-edit.c:216
 msgid "Link"
 msgstr "Ukuxuma"
 
-#: libgnome-desktop/gnome-ditem-edit.c:218
+#: libscarecrow-desktop/gnome-ditem-edit.c:218
 msgid "FSDevice"
 msgstr "Utho lokwenza lwe FS"
 
-#: libgnome-desktop/gnome-ditem-edit.c:220
+#: libscarecrow-desktop/gnome-ditem-edit.c:220
 msgid "MIME Type"
 msgstr "Uhlobo lwe MIME"
 
-#: libgnome-desktop/gnome-ditem-edit.c:222
+#: libscarecrow-desktop/gnome-ditem-edit.c:222
 msgid "Service"
 msgstr "Inkonzo"
 
-#: libgnome-desktop/gnome-ditem-edit.c:224
+#: libscarecrow-desktop/gnome-ditem-edit.c:224
 msgid "ServiceType"
 msgstr "Inhlobo yenkonzo"
 
-#: libgnome-desktop/gnome-ditem-edit.c:310
+#: libscarecrow-desktop/gnome-ditem-edit.c:310
 msgid "_URL:"
 msgstr "_URL:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:313
-#: libgnome-desktop/gnome-ditem-edit.c:380
+#: libscarecrow-desktop/gnome-ditem-edit.c:313
+#: libscarecrow-desktop/gnome-ditem-edit.c:380
 msgid "Comm_and:"
 msgstr "Ukuya_lelwa:"
 
 #. Name
-#: libgnome-desktop/gnome-ditem-edit.c:334
+#: libscarecrow-desktop/gnome-ditem-edit.c:334
 msgid "_Name:"
 msgstr "_Igama:"
 
 #. Generic Name
-#: libgnome-desktop/gnome-ditem-edit.c:351
+#: libscarecrow-desktop/gnome-ditem-edit.c:351
 msgid "_Generic name:"
 msgstr "_Uhlobo lwegama:"
 
 #. Comment
-#: libgnome-desktop/gnome-ditem-edit.c:368
+#: libscarecrow-desktop/gnome-ditem-edit.c:368
 msgid "Co_mment:"
 msgstr "Ukupha_wula:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:384
+#: libscarecrow-desktop/gnome-ditem-edit.c:384
 msgid "Browse"
 msgstr "Yaluza"
 
-#: libgnome-desktop/gnome-ditem-edit.c:395
+#: libscarecrow-desktop/gnome-ditem-edit.c:395
 msgid "_Type:"
 msgstr "_Uhlobo:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:412
+#: libscarecrow-desktop/gnome-ditem-edit.c:412
 msgid "_Icon:"
 msgstr "_Isilomo:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:422
+#: libscarecrow-desktop/gnome-ditem-edit.c:422
 msgid "Browse icons"
 msgstr "Yaluzisa izilomo"
 
-#: libgnome-desktop/gnome-ditem-edit.c:436
+#: libscarecrow-desktop/gnome-ditem-edit.c:436
 msgid "Run in t_erminal"
 msgstr "Gijima phakathi kwesikh_athi"
 
-#: libgnome-desktop/gnome-ditem-edit.c:652
-#: libgnome-desktop/gnome-ditem-edit.c:750
+#: libscarecrow-desktop/gnome-ditem-edit.c:652
+#: libscarecrow-desktop/gnome-ditem-edit.c:750
 msgid "Language"
 msgstr "Ulimi"
 
-#: libgnome-desktop/gnome-ditem-edit.c:657
-#: libgnome-desktop/gnome-ditem-edit.c:757
+#: libscarecrow-desktop/gnome-ditem-edit.c:657
+#: libscarecrow-desktop/gnome-ditem-edit.c:757
 msgid "Name"
 msgstr "Igama"
 
-#: libgnome-desktop/gnome-ditem-edit.c:662
-#: libgnome-desktop/gnome-ditem-edit.c:764
+#: libscarecrow-desktop/gnome-ditem-edit.c:662
+#: libscarecrow-desktop/gnome-ditem-edit.c:764
 msgid "Generic name"
 msgstr "Uhlobo lwegama"
 
-#: libgnome-desktop/gnome-ditem-edit.c:667
-#: libgnome-desktop/gnome-ditem-edit.c:773
+#: libscarecrow-desktop/gnome-ditem-edit.c:667
+#: libscarecrow-desktop/gnome-ditem-edit.c:773
 msgid "Comment"
 msgstr "Phawula"
 
-#: libgnome-desktop/gnome-ditem-edit.c:702
+#: libscarecrow-desktop/gnome-ditem-edit.c:702
 msgid "_Try this before using:"
 msgstr "_Zama loku ngaphambi kokusebenzisa:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:713
+#: libscarecrow-desktop/gnome-ditem-edit.c:713
 msgid "_Documentation:"
 msgstr "_Umbhalo:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:724
+#: libscarecrow-desktop/gnome-ditem-edit.c:724
 msgid "_Name/Comment translations:"
 msgstr "_Igama/ukuphawula ukuhumusha:"
 
-#: libgnome-desktop/gnome-ditem-edit.c:775
+#: libscarecrow-desktop/gnome-ditem-edit.c:775
 msgid "_Add/Set"
 msgstr "_Ongeza/hlela"
 
-#: libgnome-desktop/gnome-ditem-edit.c:781
+#: libscarecrow-desktop/gnome-ditem-edit.c:781
 msgid "Add or Set Name/Comment Translations"
 msgstr "Ongeza noma hlela igama/phawula ukuhumusha"
 
-#: libgnome-desktop/gnome-ditem-edit.c:783
+#: libscarecrow-desktop/gnome-ditem-edit.c:783
 msgid "Re_move"
 msgstr "S_usa"
 
-#: libgnome-desktop/gnome-ditem-edit.c:788
+#: libscarecrow-desktop/gnome-ditem-edit.c:788
 msgid "Remove Name/Comment Translation"
 msgstr "Susa igama/phawula ukuhumusha"
 
-#: libgnome-desktop/gnome-ditem-edit.c:804
+#: libscarecrow-desktop/gnome-ditem-edit.c:804
 msgid "Basic"
 msgstr "Isiseko"
 
-#: libgnome-desktop/gnome-ditem-edit.c:812
+#: libscarecrow-desktop/gnome-ditem-edit.c:812
 msgid "Advanced"
 msgstr "Okungaphambili"
 
-#: libgnome-desktop/gnome-hint.c:175
+#: libscarecrow-desktop/gnome-hint.c:175
 msgid "_Show Hints at Startup"
 msgstr "_Tshengisa ngokusikisela esiqalweni"
 

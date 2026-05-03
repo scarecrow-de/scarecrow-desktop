@@ -1,12 +1,12 @@
-# Brazilian Portuguese translation for gnome-desktop.
-# Copyright (C) 2013 gnome-desktop's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-desktop package.
+# Brazilian Portuguese translation for scarecrow-desktop.
+# Copyright (C) 2013 scarecrow-desktop's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-desktop package.
 # Marcelo Rodrigues <marcelopires@mmsantos.com.br>, 2010.
 # Rafael Ferreira <rafael.f.f1@gmail.com>, 2012.
 # Enrico Nicoletto <liverig@gmail.com>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop master\n"
+"Project-Id-Version: scarecrow-desktop master\n"
 "POT-Creation-Date: 2012-09-09 23:08+0000\n"
 "PO-Revision-Date: 2013-08-17 07:22-0200\n"
 "Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"

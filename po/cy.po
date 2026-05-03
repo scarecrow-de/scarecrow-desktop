@@ -1,4 +1,4 @@
-# gnome-desktop yn Gymraeg.
+# scarecrow-desktop yn Gymraeg.
 # Copyright (C) 2003-2005 www.kyfieithu.co.uk, Dafydd Harries, Gareth Bowker
 # www.kyfieithu.co.uk <gyfieithu@kyfieithu.co.uk>, 2003.
 # and contributors.
@@ -7,7 +7,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop\n"
+"Project-Id-Version: scarecrow-desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-03-28 13:38+0100\n"
 "PO-Revision-Date: 2006-03-28 13:36+0100\n"
@@ -170,197 +170,197 @@ msgstr ""
 "llawer eraill wedi cyfrannu mewn ffyrdd pwysig eraill, yn cynnwys "
 "cyfieithiadau, dogfenniaeth, a sicrhau ansawdd."
 
-#: ../libgnome-desktop/gnome-desktop-item.c:209
-#: ../libgnome-desktop/gnome-desktop-item.c:597
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:209
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:597
 #, c-format
 msgid "Error reading file '%s': %s"
 msgstr "Gwall tra'n darllen y ffeil '%s': %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:277
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:277
 #, c-format
 msgid "Error rewinding file '%s': %s"
 msgstr "Gwall tra'n ailddirwyn y ffeil '%s': %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:376
-#: ../libgnome-desktop/gnome-desktop-item.c:3743
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:376
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3743
 msgid "No name"
 msgstr "Dim enw"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:612
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:612
 #, c-format
 msgid "File '%s' is not a regular file or directory."
 msgstr "Nid yw'r ffeil '%s' yn ffeil rheolaidd neu gyfeiriadur."
 
-#: ../libgnome-desktop/gnome-desktop-item.c:788
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:788
 #, c-format
 msgid "Error cannot find file id '%s'"
 msgstr "Methwyd canfod y ffeil '%s'"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:834
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:834
 msgid "No filename to save to"
 msgstr "Dim enw ffeil i gadw ato."
 
-#: ../libgnome-desktop/gnome-desktop-item.c:1820
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:1820
 #, c-format
 msgid "Starting %s"
 msgstr "Dechrau %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2056
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2056
 msgid "No URL to launch"
 msgstr "Dim LAU i'w lansio"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2070
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2070
 msgid "Not a launchable item"
 msgstr "Nid yw'n eitem y gellir lansio"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2080
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2080
 msgid "No command (Exec) to launch"
 msgstr "Dim gorchymyn (Exec) i'w lansio"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2093
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2093
 msgid "Bad command (Exec) to launch"
 msgstr "Gorchymyn annilys (Exec) i'w lansio"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:3800
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3800
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "Amgodiad anhysbys o: '%s'"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:4031
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:4031
 #, c-format
 msgid "Error writing file '%s': %s"
 msgstr "Gwall tra'n ysgrifennu i'r ffeil '%s': %s"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:212
-#: ../libgnome-desktop/gnome-ditem-edit.c:220
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:212
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:220
 msgid "Directory"
 msgstr "Cyfeiriadur"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:216
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:216
 msgid "Application"
 msgstr "Rhaglen"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:223
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:223
 msgid "Link"
 msgstr "Cyswllt"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:225
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:225
 msgid "FSDevice"
 msgstr "DyfaisFS"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:227
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:227
 msgid "MIME Type"
 msgstr "Math MIME"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:229
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:229
 msgid "Service"
 msgstr "Gwasanaeth"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:231
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:231
 msgid "ServiceType"
 msgstr "MathGwasanaeth"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:317
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:317
 msgid "_URL:"
 msgstr "_LAU:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:320
-#: ../libgnome-desktop/gnome-ditem-edit.c:387
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:320
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:387
 msgid "Comm_and:"
 msgstr "_Gorchymyn:"
 
 #. Name
-#: ../libgnome-desktop/gnome-ditem-edit.c:341
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:341
 msgid "_Name:"
 msgstr "_Enw:"
 
 #. Generic Name
-#: ../libgnome-desktop/gnome-ditem-edit.c:358
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:358
 msgid "_Generic name:"
 msgstr "Enw _generig:"
 
 #. Comment
-#: ../libgnome-desktop/gnome-ditem-edit.c:375
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:375
 msgid "Co_mment:"
 msgstr "_Sylw:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:391
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:391
 msgid "Browse"
 msgstr "Pori"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:402
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:402
 msgid "_Type:"
 msgstr "_Math:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:419
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:419
 msgid "_Icon:"
 msgstr "_Eicon:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:429
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:429
 msgid "Browse icons"
 msgstr "Pori eiconau:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:443
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:443
 msgid "Run in t_erminal"
 msgstr "Gweithredu mewn _terfynell"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:660
-#: ../libgnome-desktop/gnome-ditem-edit.c:761
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:660
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:761
 msgid "Language"
 msgstr "Iaith"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:665
-#: ../libgnome-desktop/gnome-ditem-edit.c:768
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:665
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:768
 msgid "Name"
 msgstr "Enw"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:670
-#: ../libgnome-desktop/gnome-ditem-edit.c:775
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:670
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:775
 msgid "Generic name"
 msgstr "Enw generig"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:675
-#: ../libgnome-desktop/gnome-ditem-edit.c:784
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:675
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:784
 msgid "Comment"
 msgstr "Sylw"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:713
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:713
 msgid "_Try this before using:"
 msgstr "_Ceisio hyn cyn ddefnyddio:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:724
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:724
 msgid "_Documentation:"
 msgstr "_Dogfennaeth:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:735
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:735
 msgid "_Name/Comment translations:"
 msgstr "_Cyfieithiadau enw/sylw:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:786
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:786
 msgid "_Add/Set"
 msgstr "_Ychwanegu/Gosod"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:792
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:792
 msgid "Add or Set Name/Comment Translations"
 msgstr "Ychwanegu neu Osod Cyfieithiadau Enw/Sylw"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:794
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:794
 msgid "Re_move"
 msgstr "_Tynnu"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:799
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:799
 msgid "Remove Name/Comment Translation"
 msgstr "Gwaredu Cyfieithiad Enw/Sylw"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:815
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:815
 msgid "Basic"
 msgstr "Sylfaenol"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:823
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:823
 msgid "Advanced"
 msgstr "Pellach"
 
-#: ../libgnome-desktop/gnome-hint.c:175
+#: ../libscarecrow-desktop/gnome-hint.c:175
 msgid "_Show Hints at Startup"
 msgstr "_Dangos Awgrymiadau wrth Ddechrau"
 

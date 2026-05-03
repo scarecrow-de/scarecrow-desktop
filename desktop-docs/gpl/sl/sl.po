@@ -1,4 +1,4 @@
-#'gnome-desktop/desktop-docs/gpl/
+#'scarecrow-desktop/desktop-docs/gpl/
 # Slovenian translations for desktop GPL licence.
 # Copyright (C) 2009 desktop GPL COPYRIGHT HOLDER
 # This file is distributed under the same license as the desktop GPL dokument.

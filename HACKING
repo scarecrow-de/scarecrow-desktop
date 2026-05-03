@@ -1,9 +1,9 @@
-Hacking on gnome-desktop
+Hacking on scarecrow-desktop
 ========================
 
  + The development occurs in git:
 
-     http://git.gnome.org/browse/gnome-desktop
+     http://git.gnome.org/browse/scarecrow-desktop
 
    For information on how to access GNOME git please read:
 
@@ -11,7 +11,7 @@ Hacking on gnome-desktop
 
  + Please send patches as bug reports in GNOME Bugzilla:
 
-     https://bugzilla.gnome.org/ (product gnome-desktop)
+     https://bugzilla.gnome.org/ (product scarecrow-desktop)
 
    Your patch should be in unified diff form (the -u option to GNU
    diff). See also:

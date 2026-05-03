@@ -1,12 +1,12 @@
-# Xhosa translation for gnome-desktop
+# Xhosa translation for scarecrow-desktop
 # Copyright (C) 2005 Canonical Ltd.
-# This file is distributed under the same license as the gnome-desktop package.
+# This file is distributed under the same license as the scarecrow-desktop package.
 # Translation by Canonical Ltd <translations@canonical.com> with thanks to
 # Translation World CC in South Africa, 2005.
 # Andiswa Mvanyashe <andiswamva@webmail.co.za>, 2011, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop\n"
+"Project-Id-Version: scarecrow-desktop\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "desktop&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2012-03-16 09:20+0000\n"
@@ -24,39 +24,39 @@ msgstr ""
 #. Translators: "Unknown" here is used to identify a monitor for which
 #. * we don't know the vendor. When a vendor is known, the name of the
 #. * vendor is used.
-#: ../libgnome-desktop/display-name.c:67
+#: ../libscarecrow-desktop/display-name.c:67
 msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "Ayaziwa"
 
-#: ../libgnome-desktop/gnome-desktop-utils.c:134
+#: ../libscarecrow-desktop/scarecrow-desktop-utils.c:134
 msgid "Cannot find a terminal, using xterm, even if it may not work"
 msgstr "Ayifumani theminali, xa kusebenza i-xterm, nokuba ingangasebenzi"
 
 #. Translators: a CRTC is a CRT Controller (this is X terminology).
-#: ../libgnome-desktop/gnome-rr.c:451
+#: ../libscarecrow-desktop/gnome-rr.c:451
 #, fuzzy, c-format
 msgid "could not get the screen resources (CRTCs, outputs, modes)"
 msgstr "ayikwazanga ukufumana umnikezi wesikrini (CRTCs, okuphumayo, iintlobo)"
 
-#: ../libgnome-desktop/gnome-rr.c:471
+#: ../libscarecrow-desktop/gnome-rr.c:471
 #, c-format
 msgid "unhandled X error while getting the range of screen sizes"
 msgstr ""
 "ayikwazanga kuphatha impazamo u-X ngokuya ibifumana inqanaba lobungakanani "
 "besikrini"
 
-#: ../libgnome-desktop/gnome-rr.c:477
+#: ../libscarecrow-desktop/gnome-rr.c:477
 #, c-format
 msgid "could not get the range of screen sizes"
 msgstr "alufumanekanga uhlobo lobungakanani besikrini"
 
-#: ../libgnome-desktop/gnome-rr.c:768
+#: ../libscarecrow-desktop/gnome-rr.c:768
 #, c-format
 msgid "RANDR extension is not present"
 msgstr "RANDR intambo yokudlulisela ayikho"
 
-#: ../libgnome-desktop/gnome-rr.c:1569
+#: ../libscarecrow-desktop/gnome-rr.c:1569
 #, c-format
 msgid "could not get information about output %d"
 msgstr "azifumanekanga iinkcukacha ngeziphumo ze-%d"
@@ -64,7 +64,7 @@ msgstr "azifumanekanga iinkcukacha ngeziphumo ze-%d"
 #. Translators: the "position", "size", and "maximum"
 #. * words here are not keywords; please translate them
 #. * as usual.  A CRTC is a CRT Controller (this is X terminology)
-#: ../libgnome-desktop/gnome-rr.c:2128
+#: ../libscarecrow-desktop/gnome-rr.c:2128
 #, c-format
 msgid ""
 "requested position/size for CRTC %d is outside the allowed limit: position=(%"
@@ -73,21 +73,21 @@ msgstr ""
 "cela indawo/ubungakanani be-CRTC %d ingaphandle kwimigqa evumelekileyo: "
 "indawo=(%d, %d), ubungakanani=(%d, %d), ubukhulu=(%d, %d)"
 
-#: ../libgnome-desktop/gnome-rr.c:2164
+#: ../libscarecrow-desktop/gnome-rr.c:2164
 #, c-format
 msgid "could not set the configuration for CRTC %d"
 msgstr "ayikwazanga ukumisela ubambeko lwe-CRTC %d"
 
-#: ../libgnome-desktop/gnome-rr.c:2309
+#: ../libscarecrow-desktop/gnome-rr.c:2309
 #, c-format
 msgid "could not get information about CRTC %d"
 msgstr "azifumanekanga iinkcukacha ngo-CRTC %d"
 
-#: ../libgnome-desktop/gnome-rr-config.c:553
+#: ../libscarecrow-desktop/gnome-rr-config.c:553
 msgid "Laptop"
 msgstr "Umphezulu osongiweyo"
 
-#: ../libgnome-desktop/gnome-rr-config.c:708
+#: ../libscarecrow-desktop/gnome-rr-config.c:708
 #, c-format
 msgid ""
 "none of the saved display configurations matched the active configuration"
@@ -95,22 +95,22 @@ msgstr ""
 "ukukhona nanye yeemboniso zobambeko ezigciniweyo ezihambisana nobambeko "
 "lwangoku"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1477
+#: ../libscarecrow-desktop/gnome-rr-config.c:1477
 #, c-format
 msgid "CRTC %d cannot drive output %s"
 msgstr "I-CRTC %d ayikwazi kuqhuba isiphumo %s"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1484
+#: ../libscarecrow-desktop/gnome-rr-config.c:1484
 #, c-format
 msgid "output %s does not support mode %dx%d@%dHz"
 msgstr "isiphumo %s ayiluxhasi uhlobo lwe-%d%d%dHz"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1495
+#: ../libscarecrow-desktop/gnome-rr-config.c:1495
 #, c-format
 msgid "CRTC %d does not support rotation=%s"
 msgstr "I-CRTC %d ayikuxhasi ukujikeleza kwe-%s"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1509
+#: ../libscarecrow-desktop/gnome-rr-config.c:1509
 #, fuzzy, c-format
 msgid ""
 "output %s does not have the same parameters as another cloned output:\n"
@@ -123,24 +123,24 @@ msgstr ""
 "existing coordinates = (%d, %d), new coordinates = (%d, %d)\n"
 "existing rotation = %s, new rotation = %s"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1524
+#: ../libscarecrow-desktop/gnome-rr-config.c:1524
 #, fuzzy, c-format
 msgid "cannot clone to output %s"
 msgstr "ayikwazi kukutshwa kwiziphumo i-%s"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1693
+#: ../libscarecrow-desktop/gnome-rr-config.c:1693
 #, c-format
 msgid "Trying modes for CRTC %d\n"
 msgstr "Izama inkqubo ye-CRTC %d\n"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1717
+#: ../libscarecrow-desktop/gnome-rr-config.c:1717
 #, fuzzy, c-format
 msgid "CRTC %d: trying mode %dx%d@%dHz with output at %dx%d@%dHz (pass %d)\n"
 msgstr ""
 "CRTC %d: uhlobo lokuzama %dx%d@%dHz ngaphandle kweziphumo %dx%d@%dHz "
 "(iphumelele %d)\n"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1764
+#: ../libscarecrow-desktop/gnome-rr-config.c:1764
 #, fuzzy, c-format
 msgid ""
 "could not assign CRTCs to outputs:\n"
@@ -149,7 +149,7 @@ msgstr ""
 "ayikwazanga ukufaka i-CRTCs kokuphumayo:\n"
 "%s"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1768
+#: ../libscarecrow-desktop/gnome-rr-config.c:1768
 #, fuzzy, c-format
 msgid ""
 "none of the selected modes were compatible with the possible modes:\n"
@@ -161,7 +161,7 @@ msgstr ""
 #. Translators: the "requested", "minimum", and
 #. * "maximum" words here are not keywords; please
 #. * translate them as usual.
-#: ../libgnome-desktop/gnome-rr-config.c:1850
+#: ../libscarecrow-desktop/gnome-rr-config.c:1850
 #, fuzzy, c-format
 msgid ""
 "required virtual size does not fit available size: requested=(%d, %d), "
@@ -176,47 +176,47 @@ msgstr ""
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../libgnome-desktop/gnome-rr-labeler.c:312
+#: ../libscarecrow-desktop/gnome-rr-labeler.c:312
 msgid "Mirror Screens"
 msgstr "Isikrini sefestile"
 
 #. Translators: This is the time format with date used
 #. in 24-hour mode.
-#: ../libgnome-desktop/gnome-wall-clock.c:195
+#: ../libscarecrow-desktop/gnome-wall-clock.c:195
 msgid "%a %b %e, %R:%S"
 msgstr "%a %b %e, %R:%S"
 
-#: ../libgnome-desktop/gnome-wall-clock.c:196
+#: ../libscarecrow-desktop/gnome-wall-clock.c:196
 msgid "%a %b %e, %R"
 msgstr "%a %b %e, %R"
 
 #. Translators: This is the time format without date used
 #. in 24-hour mode.
-#: ../libgnome-desktop/gnome-wall-clock.c:200
+#: ../libscarecrow-desktop/gnome-wall-clock.c:200
 msgid "%a %R:%S"
 msgstr "%a %R:%S"
 
-#: ../libgnome-desktop/gnome-wall-clock.c:201
+#: ../libscarecrow-desktop/gnome-wall-clock.c:201
 msgid "%a %R"
 msgstr "%a %R"
 
 #. Translators: This is a time format with date used
 #. for AM/PM.
-#: ../libgnome-desktop/gnome-wall-clock.c:206
+#: ../libscarecrow-desktop/gnome-wall-clock.c:206
 msgid "%a %b %e, %l:%M:%S %p"
 msgstr "%a %b %e, %l:%M:%S %p"
 
-#: ../libgnome-desktop/gnome-wall-clock.c:207
+#: ../libscarecrow-desktop/gnome-wall-clock.c:207
 msgid "%a %b %e, %l:%M %p"
 msgstr "%a %b %e, %l:%M %p"
 
 #. Translators: This is a time format without date used
 #. for AM/PM.
-#: ../libgnome-desktop/gnome-wall-clock.c:211
+#: ../libscarecrow-desktop/gnome-wall-clock.c:211
 msgid "%a %l:%M:%S %p"
 msgstr "%a %l:%M:%S %p"
 
-#: ../libgnome-desktop/gnome-wall-clock.c:212
+#: ../libscarecrow-desktop/gnome-wall-clock.c:212
 msgid "%a %l:%M %p"
 msgstr "%a %l:%M %p"
 

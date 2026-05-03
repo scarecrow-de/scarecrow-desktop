@@ -20,7 +20,7 @@ test_metas = []
 
 foreach program: test_programs
   exe = executable(program, program + '.c',
-    dependencies: libgnome_desktop_dep,
+    dependencies: libscarecrow_desktop_dep,
     c_args: test_args,
     install_dir: test_execdir,
     install: get_option('installed_tests')

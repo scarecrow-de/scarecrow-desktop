@@ -1,12 +1,12 @@
-# translation of gnome-desktop to uzbek
+# translation of scarecrow-desktop to uzbek
 # Copyright (C) 2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-desktop package.
+# This file is distributed under the same license as the scarecrow-desktop package.
 #
 # Nurali Abdurahmonov <nurali@paradox-neo.uz>, 2007.
 # Nurali Abdurahmonov <mavnur@gmail.com>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop\n"
+"Project-Id-Version: scarecrow-desktop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-06-27 21:15+0200\n"
 "PO-Revision-Date: 2008-03-06 11:02+0500\n"
@@ -185,197 +185,197 @@ msgstr ""
 "oʻz hissalarini qoʻshdilar, ammo bundan ham koʻp insonlar tarjimalar, "
 "qoʻllanmalar va sifatni oshirish boʻyicha oʻz hissalarini qoʻshdilar."
 
-#: ../libgnome-desktop/gnome-desktop-item.c:210
-#: ../libgnome-desktop/gnome-desktop-item.c:598
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:210
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:598
 #, c-format
 msgid "Error reading file '%s': %s"
 msgstr "\"%s\" faylini oʻqish xatosi: %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:278
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:278
 #, c-format
 msgid "Error rewinding file '%s': %s"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:377
-#: ../libgnome-desktop/gnome-desktop-item.c:3748
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:377
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3748
 msgid "No name"
 msgstr "Nomsiz"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:613
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:613
 #, c-format
 msgid "File '%s' is not a regular file or directory."
 msgstr "'%s' fayl yoki direktoriya emas."
 
-#: ../libgnome-desktop/gnome-desktop-item.c:789
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:789
 #, c-format
 msgid "Error cannot find file id '%s'"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:835
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:835
 msgid "No filename to save to"
 msgstr "Saqlash uchun fayl nomi koʻrsatilmagan"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:1828
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:1828
 #, c-format
 msgid "Starting %s"
 msgstr "%s ishga tushirilmoqda"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2066
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2066
 msgid "No URL to launch"
 msgstr "ishga tushirish uchun URL koʻrsatilmagan"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2080
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2080
 msgid "Not a launchable item"
 msgstr "Element ishga tushiriladigan emas"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2090
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2090
 msgid "No command (Exec) to launch"
 msgstr "Ishga tushirish uchun buyruq (Exec) yoʻq"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2103
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2103
 msgid "Bad command (Exec) to launch"
 msgstr "Ishga tushirish uchun xato buyruq (Exec)"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:3805
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3805
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "Nomaʼlum kodlash usuli: %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:4036
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:4036
 #, c-format
 msgid "Error writing file '%s': %s"
 msgstr "\"%s\" fayliga yozishdagi xato: %s"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:210
-#: ../libgnome-desktop/gnome-ditem-edit.c:218
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:210
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:218
 msgid "Directory"
 msgstr "Direktoriya"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:214
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:214
 msgid "Application"
 msgstr "Dastur"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:221
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:221
 msgid "Link"
 msgstr "Bogʻlama"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:223
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:223
 msgid "FSDevice"
 msgstr "FSUskuna"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:225
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:225
 msgid "MIME Type"
 msgstr "MIME turi"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:227
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:227
 msgid "Service"
 msgstr "Xizmat"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:229
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:229
 msgid "ServiceType"
 msgstr "Xizmat turi"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:315
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:315
 msgid "_URL:"
 msgstr "_URL:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:318
-#: ../libgnome-desktop/gnome-ditem-edit.c:385
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:318
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:385
 msgid "Comm_and:"
 msgstr "Buy_ruq:"
 
 #. Name
-#: ../libgnome-desktop/gnome-ditem-edit.c:339
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:339
 msgid "_Name:"
 msgstr "_Ismi:"
 
 #. Generic Name
-#: ../libgnome-desktop/gnome-ditem-edit.c:356
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:356
 msgid "_Generic name:"
 msgstr "_Umumiy nom:"
 
 #. Comment
-#: ../libgnome-desktop/gnome-ditem-edit.c:373
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:373
 msgid "Co_mment:"
 msgstr "I_zoh:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:389
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:389
 msgid "Browse"
 msgstr "Tanlash"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:400
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:400
 msgid "_Type:"
 msgstr "_Turi:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:417
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:417
 msgid "_Icon:"
 msgstr "_Nishoncha:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:427
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:427
 msgid "Browse icons"
 msgstr "Nishonchalarni tanlash"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:441
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:441
 msgid "Run in t_erminal"
 msgstr "T_yerminalda bajarish"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:658
-#: ../libgnome-desktop/gnome-ditem-edit.c:760
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:658
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:760
 msgid "Language"
 msgstr "Til"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:663
-#: ../libgnome-desktop/gnome-ditem-edit.c:769
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:663
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:769
 msgid "Name"
 msgstr "Ismi"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:668
-#: ../libgnome-desktop/gnome-ditem-edit.c:778
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:668
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:778
 msgid "Generic name"
 msgstr "Umumiy nom"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:673
-#: ../libgnome-desktop/gnome-ditem-edit.c:789
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:673
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:789
 msgid "Comment"
 msgstr "Izoh"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:712
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:712
 msgid "_Try this before using:"
 msgstr "_Qoʻllashdan avval quyidagidan foydalanish:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:723
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:723
 msgid "_Documentation:"
 msgstr "_Qoʻllanmalar:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:734
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:734
 msgid "_Name/Comment translations:"
 msgstr "_Nom/izoh tarjimalari:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:793
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:793
 msgid "_Add/Set"
 msgstr "_Qoʻshish/Oʻrnatish"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:798
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:798
 msgid "Add or Set Name/Comment Translations"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:803
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:803
 msgid "Re_move"
 msgstr "_Olib tashlash"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:808
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:808
 msgid "Remove Name/Comment Translation"
 msgstr "Nom/izoh tarjimalarini olib tashlash"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:827
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:827
 msgid "Basic"
 msgstr "Asosiy"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:835
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:835
 msgid "Advanced"
 msgstr "Qoʻshimcha"
 
-#: ../libgnome-desktop/gnome-hint.c:201
+#: ../libscarecrow-desktop/gnome-hint.c:201
 msgid "_Show Hints at Startup"
 msgstr "Ishga tushayotganda maslahatlarni _koʻrsatish"
 

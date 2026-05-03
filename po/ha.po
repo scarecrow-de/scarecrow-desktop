@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop-2.10.0\n"
+"Project-Id-Version: scarecrow-desktop-2.10.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "desktop&component=general\n"
 "POT-Creation-Date: 2009-01-13 00:10+0000\n"
@@ -153,99 +153,99 @@ msgstr ""
 "an sami mutane da yawa waɗannda suka yi karo-karo ta hanyoyi daban-daban na "
 "musamman, kamar fassarori, yin takardar aiki, da kuma ba da tabbacin ingaci."
 
-#: ../libgnome-desktop/display-name.c:213
+#: ../libscarecrow-desktop/display-name.c:213
 msgid "Laptop"
 msgstr ""
 
-#: ../libgnome-desktop/display-name.c:221
+#: ../libscarecrow-desktop/display-name.c:221
 msgid "Unknown"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:218
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:218
 #, c-format
 msgid "Error reading file '%s': %s"
 msgstr "Kuskure wajen karanta fayil '%s': %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:286
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:286
 #, c-format
 msgid "Error rewinding file '%s': %s"
 msgstr "Kuskure wajen yin rewind ga fayil '%s': %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:388
-#: ../libgnome-desktop/gnome-desktop-item.c:3530
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:388
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3530
 msgid "No name"
 msgstr "Babu suna"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:615
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:615
 #, c-format
 msgid "File '%s' is not a regular file or directory."
 msgstr "Fayil na '%s' ba wani fayil ko gafaka na yau da kullum ba."
 
-#: ../libgnome-desktop/gnome-desktop-item.c:799
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:799
 #, fuzzy, c-format
 msgid "Error cannot find file id '%s'"
 msgstr "Kuskure wajen karanta fayil '%s': %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:845
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:845
 #, c-format
 msgid "No filename to save to"
 msgstr "Babu sunan fayil da za'a adana zuwa"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:1830
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:1830
 #, c-format
 msgid "Starting %s"
 msgstr "Ana Fara %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2066
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2066
 #, c-format
 msgid "No URL to launch"
 msgstr "Babu URL wanda za'a gabatar"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2082
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2082
 #, c-format
 msgid "Not a launchable item"
 msgstr "Ba wani abun da za'a iya gabatar bane"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2092
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2092
 #, c-format
 msgid "No command (Exec) to launch"
 msgstr "Babu umarni (Exec) wanda za'a gabatar"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2105
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2105
 #, c-format
 msgid "Bad command (Exec) to launch"
 msgstr "Umarni mai maras kyau (Exec) wanda za'a gabatar"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:3586
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3586
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "Inkodin wanda ba'a sani ba na: %s"
 
-#: ../libgnome-desktop/gnome-desktop-utils.c:130
+#: ../libscarecrow-desktop/scarecrow-desktop-utils.c:130
 msgid "Cannot find a terminal, using xterm, even if it may not work"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-rr.c:346
+#: ../libscarecrow-desktop/gnome-rr.c:346
 #, c-format
 msgid "could not get the range of screen sizes"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-rr.c:355
+#: ../libscarecrow-desktop/gnome-rr.c:355
 #, c-format
 msgid "unhandled X error while getting the range of screen sizes"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-rr.c:444
+#: ../libscarecrow-desktop/gnome-rr.c:444
 #, c-format
 msgid "could not get the screen resources (CRTCs, outputs, modes)"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-rr.c:579
+#: ../libscarecrow-desktop/gnome-rr.c:579
 #, c-format
 msgid "RANDR extension is not present"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-rr.c:809
+#: ../libscarecrow-desktop/gnome-rr.c:809
 #, c-format
 msgid "could not get information about output %d"
 msgstr ""
@@ -253,24 +253,24 @@ msgstr ""
 #. Translators: the "position", "size", and "maximum"
 #. * words here are not keywords; please translate them
 #. * as usual.
-#: ../libgnome-desktop/gnome-rr.c:1107
+#: ../libscarecrow-desktop/gnome-rr.c:1107
 #, c-format
 msgid ""
 "requested position/size for CRTC %d is outside the allowed limit: position=(%"
 "d, %d), size=(%d, %d), maximum=(%d, %d)"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-rr.c:1140
+#: ../libscarecrow-desktop/gnome-rr.c:1140
 #, c-format
 msgid "could not set the configuration for CRTC %d"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-rr.c:1249
+#: ../libscarecrow-desktop/gnome-rr.c:1249
 #, c-format
 msgid "could not get information about CRTC %d"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-rr-config.c:1152
+#: ../libscarecrow-desktop/gnome-rr-config.c:1152
 #, c-format
 msgid ""
 "none of the saved display configurations matched the active configuration"
@@ -279,14 +279,14 @@ msgstr ""
 #. Translators: the "requested", "minimum", and
 #. * "maximum" words here are not keywords; please
 #. * translate them as usual.
-#: ../libgnome-desktop/gnome-rr-config.c:1528
+#: ../libscarecrow-desktop/gnome-rr-config.c:1528
 #, c-format
 msgid ""
 "required virtual size does not fit available size: requested=(%d, %d), "
 "minimum=(%d, %d), maximum=(%d, %d)"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-rr-config.c:1542
+#: ../libscarecrow-desktop/gnome-rr-config.c:1542
 #, c-format
 msgid "could not find a suitable configuration of screens"
 msgstr ""

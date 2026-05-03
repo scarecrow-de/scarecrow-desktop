@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop gnome-2.16\n"
+"Project-Id-Version: scarecrow-desktop gnome-2.16\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-06-23 11:20+0200\n"
 "PO-Revision-Date: 2006-06-22 12:42-0500\n"
@@ -150,199 +150,199 @@ msgid ""
 "translations, documentation, and quality assurance."
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:209
-#: ../libgnome-desktop/gnome-desktop-item.c:597
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:209
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:597
 #, c-format
 msgid "Error reading file '%s': %s"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:277
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:277
 #, c-format
 msgid "Error rewinding file '%s': %s"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:376
-#: ../libgnome-desktop/gnome-desktop-item.c:3745
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:376
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3745
 msgid "No name"
 msgstr "کوئی نام نہیں"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:612
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:612
 #, c-format
 msgid "File '%s' is not a regular file or directory."
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:788
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:788
 #, c-format
 msgid "Error cannot find file id '%s'"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:834
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:834
 msgid "No filename to save to"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:1820
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:1820
 #, c-format
 msgid "Starting %s"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2058
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2058
 msgid "No URL to launch"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2072
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2072
 msgid "Not a launchable item"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2082
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2082
 msgid "No command (Exec) to launch"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2095
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2095
 msgid "Bad command (Exec) to launch"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:3802
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3802
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:4033
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:4033
 #, c-format
 msgid "Error writing file '%s': %s"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:212
-#: ../libgnome-desktop/gnome-ditem-edit.c:220
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:212
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:220
 msgid "Directory"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:216
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:216
 msgid "Application"
 msgstr "Application"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:223
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:223
 msgid "Link"
 msgstr "لنک"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:225
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:225
 msgid "FSDevice"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:227
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:227
 msgid "MIME Type"
 msgstr "٘MIME TYPEُؑ"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:229
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:229
 msgid "Service"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:231
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:231
 msgid "ServiceType"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:317
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:317
 #, fuzzy
 msgid "_URL:"
 msgstr "_URL:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:320
-#: ../libgnome-desktop/gnome-ditem-edit.c:387
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:320
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:387
 msgid "Comm_and:"
 msgstr ""
 
 #. Name
-#: ../libgnome-desktop/gnome-ditem-edit.c:341
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:341
 #, fuzzy
 msgid "_Name:"
 msgstr "ّنام_"
 
 #. Generic Name
-#: ../libgnome-desktop/gnome-ditem-edit.c:358
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:358
 msgid "_Generic name:"
 msgstr ""
 
 #. Comment
-#: ../libgnome-desktop/gnome-ditem-edit.c:375
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:375
 msgid "Co_mment:"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:391
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:391
 msgid "Browse"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:402
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:402
 #, fuzzy
 msgid "_Type:"
 msgstr "ٹائپ:_"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:419
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:419
 msgid "_Icon:"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:429
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:429
 msgid "Browse icons"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:443
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:443
 msgid "Run in t_erminal"
 msgstr "ٹرمینل میں چلائیں_e"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:660
-#: ../libgnome-desktop/gnome-ditem-edit.c:761
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:660
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:761
 msgid "Language"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:665
-#: ../libgnome-desktop/gnome-ditem-edit.c:768
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:665
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:768
 msgid "Name"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:670
-#: ../libgnome-desktop/gnome-ditem-edit.c:775
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:670
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:775
 msgid "Generic name"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:675
-#: ../libgnome-desktop/gnome-ditem-edit.c:784
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:675
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:784
 msgid "Comment"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:713
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:713
 msgid "_Try this before using:"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:724
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:724
 msgid "_Documentation:"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:735
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:735
 msgid "_Name/Comment translations:"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:786
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:786
 msgid "_Add/Set"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:792
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:792
 msgid "Add or Set Name/Comment Translations"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:794
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:794
 msgid "Re_move"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:799
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:799
 msgid "Remove Name/Comment Translation"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:815
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:815
 msgid "Basic"
 msgstr "بنیادی"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:823
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:823
 msgid "Advanced"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-hint.c:175
+#: ../libscarecrow-desktop/gnome-hint.c:175
 msgid "_Show Hints at Startup"
 msgstr ""

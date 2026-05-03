@@ -3,11 +3,11 @@
 # Timo Jyrinki <timo.jyrinki@iki.fi>, 2008.
 #
 # This translation is adapted from
-# http://www.turre.com/licenses/gpl_fi.php and gnome-desktop/gpl.
+# http://www.turre.com/licenses/gpl_fi.php and scarecrow-desktop/gpl.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop/lgpl\n"
+"Project-Id-Version: scarecrow-desktop/lgpl\n"
 "POT-Creation-Date: 2008-07-10 13:00+0300\n"
 "PO-Revision-Date: 2008-07-10 14:07+0300\n"
 "Last-Translator: Timo Jyrinki <timo.jyrinki@iki.fi>\n"

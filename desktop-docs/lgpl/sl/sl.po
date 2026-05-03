@@ -1,4 +1,4 @@
-#'gnome-desktop/desktop-docs/lgpl/
+#'scarecrow-desktop/desktop-docs/lgpl/
 # Slovenian translations for desktop LGPL licence.
 # Copyright (C) 2009 desktop GLPL COPYRIGHT HOLDER
 # This file is distributed under the same license as the desktop LGPL dokument.

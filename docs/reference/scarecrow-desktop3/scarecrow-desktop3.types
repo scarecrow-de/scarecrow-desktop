@@ -1,0 +1,7 @@
+scarecrow_bg_crossfade_get_type
+scarecrow_bg_get_type
+scarecrow_desktop_thumbnail_factory_get_type
+scarecrow_idle_monitor_get_type
+scarecrow_pnp_ids_get_type
+scarecrow_wall_clock_get_type
+scarecrow_xkb_info_get_type

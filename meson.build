@@ -1,4 +1,4 @@
-project('gnome-desktop', 'c',
+project('scarecrow-desktop', 'c',
   meson_version: '>= 0.49.0',
   version: '3.38.9',
   license: ['GPL2+', 'LGPL2+']
@@ -127,7 +127,7 @@ version_xml = configure_file(
 )
 install_data(version_xml, install_dir: versiondir)
 
-subdir('libgnome-desktop')
+subdir('libscarecrow-desktop')
 subdir('po')
 subdir('tests')
 
@@ -138,5 +138,5 @@ if get_option('desktop_docs')
 endif
 
 if get_option('gtk_doc')
-  subdir('docs/reference/gnome-desktop3')
+  subdir('docs/reference/scarecrow-desktop3')
 endif

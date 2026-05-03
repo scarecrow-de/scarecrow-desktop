@@ -1,12 +1,12 @@
-# translation of gnome-desktop.master.mai.po to Hindi
+# translation of scarecrow-desktop.master.mai.po to Hindi
 # BOSS GNU/Linux <bosslinux@cdac.in>, 2008.
 # Rajesh Ranjan <rajesh672@gmail.com>, 2009.
 # Copyright (C) 2006 The GNOME Foundation
 # This file is distributed under the same license as the PACKAGE package.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop.master.mai\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-desktop&component=general\n"
+"Project-Id-Version: scarecrow-desktop.master.mai\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=scarecrow-desktop&component=general\n"
 "POT-Creation-Date: 2009-08-19 19:24+0000\n"
 "PO-Revision-Date: 2009-09-20 12:26+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
@@ -155,101 +155,101 @@ msgstr ""
 "लोकनिसभ आन महत्वपूर्ण रूपेँ योगदान देने अछि जकरामे भाषानुवाद, दस्ताबेजीकरण आओरगुणवत्ता "
 "भरोसा सामिल अछि."
 
-#: ../libgnome-desktop/display-name.c:262
+#: ../libscarecrow-desktop/display-name.c:262
 msgid "Laptop"
 msgstr "लैपटाप"
 
-#: ../libgnome-desktop/display-name.c:270
+#: ../libscarecrow-desktop/display-name.c:270
 msgid "Unknown"
 msgstr "अज्ञात"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:220
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:220
 #, c-format
 msgid "Error reading file '%s': %s"
 msgstr "'%s' फाइल केँ पढ़बामे त्रुटि: %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:288
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:288
 #, c-format
 msgid "Error rewinding file '%s': %s"
 msgstr "'%s' फाइलक रिवाइंडिंगमे त्रुटि : %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:377
-#: ../libgnome-desktop/gnome-desktop-item.c:3519
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:377
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3519
 msgid "No name"
 msgstr "कोनो नाम नहि"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:604
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:604
 #, c-format
 msgid "File '%s' is not a regular file or directory."
 msgstr "फाइल '%s' सामान्य फाइल अथवा निर्देशिका नहि अछि"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:788
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:788
 #, c-format
 msgid "Error cannot find file id '%s'"
 msgstr "फाइल id '%s' त्रुटि नहि पाबि सकल"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:834
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:834
 #, c-format
 msgid "No filename to save to"
 msgstr "सहेजबाक लेल कोनो फाइलनाम नहि देल गेल अछि"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:1819
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:1819
 #, c-format
 msgid "Starting %s"
 msgstr "%s शुरू भ' रहल अछि"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2055
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2055
 #, c-format
 msgid "No URL to launch"
 msgstr "कोनो URL लांच लेल नहि अछि"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2071
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2071
 #, c-format
 msgid "Not a launchable item"
 msgstr "चलाबैबला मद नहि अछि "
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2081
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2081
 #, c-format
 msgid "No command (Exec) to launch"
 msgstr "चलाबै लेल कोनो कमाँड नहि अछि"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2094
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2094
 #, c-format
 msgid "Bad command (Exec) to launch"
 msgstr "लाँच करबाक लेल गलत कमांड"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:3575
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3575
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "%s क' अज्ञात एनकोडिंग"
 
-#: ../libgnome-desktop/gnome-desktop-utils.c:133
+#: ../libscarecrow-desktop/scarecrow-desktop-utils.c:133
 msgid "Cannot find a terminal, using xterm, even if it may not work"
 msgstr ""
 "कोनो टर्मिनल नहि ढूँढ़ि सकैत अछि, xterm कए प्रयोग कए रहल अछि, बावजूद जे यह काज नहि "
 "करैत अछि"
 
-#: ../libgnome-desktop/gnome-rr.c:405
+#: ../libscarecrow-desktop/gnome-rr.c:405
 #, c-format
 msgid "could not get the screen resources (CRTCs, outputs, modes)"
 msgstr "स्क्रीन संसाधन नहि पाबि सकैत अछि (CRTC, आउटपुट, विधि)"
 
-#: ../libgnome-desktop/gnome-rr.c:425
+#: ../libscarecrow-desktop/gnome-rr.c:425
 #, c-format
 msgid "unhandled X error while getting the range of screen sizes"
 msgstr "अनियंत्रित X त्रुटि जखन स्क्रीन आकार कए दायरा पाबि रहल अछि"
 
-#: ../libgnome-desktop/gnome-rr.c:431
+#: ../libscarecrow-desktop/gnome-rr.c:431
 #, c-format
 msgid "could not get the range of screen sizes"
 msgstr "स्क्रीन आकार कए परिसर पाबि नहि सकैत अछि"
 
-#: ../libgnome-desktop/gnome-rr.c:657
+#: ../libscarecrow-desktop/gnome-rr.c:657
 #, c-format
 msgid "RANDR extension is not present"
 msgstr "RANDR विस्तार मोजुद नहि अछि"
 
-#: ../libgnome-desktop/gnome-rr.c:923
+#: ../libscarecrow-desktop/gnome-rr.c:923
 #, c-format
 msgid "could not get information about output %d"
 msgstr "%d आउटपुटक संबंधीमे सूचना नहि पाबि सकल"
@@ -257,7 +257,7 @@ msgstr "%d आउटपुटक संबंधीमे सूचना नह
 #. Translators: the "position", "size", and "maximum"
 #. * words here are not keywords; please translate them
 #. * as usual.  A CRTC is a CRT Controller (this is X terminology)
-#: ../libgnome-desktop/gnome-rr.c:1261
+#: ../libscarecrow-desktop/gnome-rr.c:1261
 #, c-format
 msgid ""
 "requested position/size for CRTC %d is outside the allowed limit: position=(%"
@@ -266,17 +266,17 @@ msgstr ""
 "requested position/size for CRTC %d is outside the allowed limit: position=(%"
 "d, %d), size=(%d, %d), maximum=(%d, %d)"
 
-#: ../libgnome-desktop/gnome-rr.c:1297
+#: ../libscarecrow-desktop/gnome-rr.c:1297
 #, c-format
 msgid "could not set the configuration for CRTC %d"
 msgstr "CRTC %d क लेल विन्यास सेट नहि कए सकल"
 
-#: ../libgnome-desktop/gnome-rr.c:1409
+#: ../libscarecrow-desktop/gnome-rr.c:1409
 #, c-format
 msgid "could not get information about CRTC %d"
 msgstr "CRTC %d क संबंधमे सूचना नहि पाबि सकल"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1159
+#: ../libscarecrow-desktop/gnome-rr-config.c:1159
 #, c-format
 msgid "none of the saved display configurations matched the active configuration"
 msgstr "सक्रिय विन्यास सँ मेल खाएत कोनो सहेजल प्रदर्शन विन्यास सहेजल नहि छल"
@@ -284,7 +284,7 @@ msgstr "सक्रिय विन्यास सँ मेल खाएत �
 #. Translators: the "requested", "minimum", and
 #. * "maximum" words here are not keywords; please
 #. * translate them as usual.
-#: ../libgnome-desktop/gnome-rr-config.c:1682
+#: ../libscarecrow-desktop/gnome-rr-config.c:1682
 #, c-format
 msgid ""
 "required virtual size does not fit available size: requested=(%d, %d), "
@@ -293,7 +293,7 @@ msgstr ""
 "required virtual size does not fit available size: requested=(%d, %d), "
 "minimum=(%d, %d), maximum=(%d, %d)"
 
-#: ../libgnome-desktop/gnome-rr-config.c:1696
+#: ../libscarecrow-desktop/gnome-rr-config.c:1696
 #, c-format
 msgid "could not find a suitable configuration of screens"
 msgstr "स्क्रीनक उपयुक्त विन्यास ढूँढ़ि नहि सकल"
@@ -304,7 +304,7 @@ msgstr "स्क्रीनक उपयुक्त विन्यास ढ
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../libgnome-desktop/gnome-rr-labeler.c:210
+#: ../libscarecrow-desktop/gnome-rr-labeler.c:210
 msgid "Mirror Screens"
 msgstr "मिरर स्क्रीम"
 

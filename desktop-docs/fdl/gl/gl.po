@@ -1,12 +1,12 @@
-# Galician translation for gnome-desktop.
-# Copyright (C) 2011 gnome-desktop's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-desktop package.
+# Galician translation for scarecrow-desktop.
+# Copyright (C) 2011 scarecrow-desktop's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-desktop package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # Fran Dieguez <frandieguez@gnome.org>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop gnome-3-2\n"
+"Project-Id-Version: scarecrow-desktop gnome-3-2\n"
 "POT-Creation-Date: 2018-03-11 09:24+0000\n"
 "PO-Revision-Date: 2018-03-13 22:33+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"

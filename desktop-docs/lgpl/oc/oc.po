@@ -1,6 +1,6 @@
 # Occitan translation of desktop-gpl.
 # Copyright (C) 2005-2006 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-desktop
+# This file is distributed under the same license as the scarecrow-desktop
 # documentation package.
 #
 # Yannig MARCHEGAY (yannig@marchegay.org> - 2006-2007

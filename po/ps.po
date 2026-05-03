@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop.head\n"
+"Project-Id-Version: scarecrow-desktop.head\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-07-05 03:41+0000\n"
 "PO-Revision-Date: 2008-07-05 16:39-0800\n"
@@ -126,196 +126,196 @@ msgstr ""
 msgid "Hundreds of people have contributed code to GNOME since it was started in 1997; many more have contributed in other important ways, including translations, documentation, and quality assurance."
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:219
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:219
 #, c-format
 msgid "Error reading file '%s': %s"
 msgstr "%s :دوتنې په لوستلو کې تېروتنه '%s' د"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:287
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:287
 #, c-format
 msgid "Error rewinding file '%s': %s"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-desktop-item.c:389
-#: ../libgnome-desktop/gnome-desktop-item.c:3756
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:389
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3756
 msgid "No name"
 msgstr "هېڅ نوم"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:616
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:616
 #, c-format
 msgid "File '%s' is not a regular file or directory."
 msgstr ".دوتنه ساده دوتنه يا درکموند نه دی '%s'"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:796
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:796
 #, c-format
 msgid "Error cannot find file id '%s'"
 msgstr "دوتنه پېژند نه شي موندلی '%s' تېروتنه!"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:842
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:842
 #, c-format
 msgid "No filename to save to"
 msgstr "کوم دوتنه نوم نشته چې ورکې وساتل شي"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:1827
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:1827
 #, c-format
 msgid "Starting %s"
 msgstr "پېليږي %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2063
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2063
 #, c-format
 msgid "No URL to launch"
 msgstr "نشته چې پرانيستل شي URL"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2076
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2076
 #, c-format
 msgid "Not a launchable item"
 msgstr "پېلېدونکی توکی نه دی"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2086
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2086
 #, c-format
 msgid "No command (Exec) to launch"
 msgstr "کومه بولۍ نشته چې پېل شي"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2099
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2099
 #, c-format
 msgid "Bad command (Exec) to launch"
 msgstr "ناسمه بولۍ چې پېل شي"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:3812
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3812
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "%s :ناسمه کوډيزونه ده"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:209
-#: ../libgnome-desktop/gnome-ditem-edit.c:217
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:209
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:217
 msgid "Directory"
 msgstr "درکموند"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:213
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:213
 msgid "Application"
 msgstr "کاريال"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:220
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:220
 msgid "Link"
 msgstr "تړنه"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:222
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:222
 msgid "FSDevice"
 msgstr ""
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:224
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:224
 msgid "MIME Type"
 msgstr "ډول MIME"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:226
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:226
 msgid "Service"
 msgstr "پالنه"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:228
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:228
 msgid "ServiceType"
 msgstr "د پالنې ډول"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:314
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:314
 msgid "_URL:"
 msgstr ":URL_"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:317
-#: ../libgnome-desktop/gnome-ditem-edit.c:384
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:317
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:384
 msgid "Comm_and:"
 msgstr ":بول_ۍ"
 
 #. Name
-#: ../libgnome-desktop/gnome-ditem-edit.c:338
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:338
 msgid "_Name:"
 msgstr ":نوم_"
 
 #. Generic Name
-#: ../libgnome-desktop/gnome-ditem-edit.c:355
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:355
 msgid "_Generic name:"
 msgstr ":ټولګړی نوم_"
 
 #. Comment
-#: ../libgnome-desktop/gnome-ditem-edit.c:372
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:372
 msgid "Co_mment:"
 msgstr ":څر_ګندون"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:388
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:388
 msgid "Browse"
 msgstr "لټول"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:399
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:399
 msgid "_Type:"
 msgstr ":ډول_"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:416
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:416
 msgid "_Icon:"
 msgstr ":انځورن_"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:426
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:426
 msgid "Browse icons"
 msgstr "انځورنونه لټول"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:440
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:440
 msgid "Run in t_erminal"
 msgstr "په پ_ايالي کې ځغلول"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:621
-#: ../libgnome-desktop/gnome-ditem-edit.c:721
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:621
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:721
 msgid "Language"
 msgstr "ژبه"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:626
-#: ../libgnome-desktop/gnome-ditem-edit.c:727
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:626
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:727
 msgid "Name"
 msgstr "نوم"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:631
-#: ../libgnome-desktop/gnome-ditem-edit.c:733
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:631
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:733
 msgid "Generic name"
 msgstr "ټولګړی نوم"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:636
-#: ../libgnome-desktop/gnome-ditem-edit.c:741
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:636
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:741
 msgid "Comment"
 msgstr "څرګندون"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:674
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:674
 msgid "_Try this before using:"
 msgstr ":د کارولو نه مخکې دا هڅه وکړﺉ_"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:685
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:685
 msgid "_Documentation:"
 msgstr ":لاسوندونه_"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:696
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:696
 msgid "_Name/Comment translations:"
 msgstr ":د نوم/څرګندون ژباړه_"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:743
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:743
 msgid "_Add/Set"
 msgstr "زياتول/ټاکل_"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:748
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:748
 msgid "Add or Set Name/Comment Translations"
 msgstr "د نوم/څرګندون ژباړې زياتول يا ټاکل"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:750
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:750
 msgid "Re_move"
 msgstr "ړن_ګول"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:755
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:755
 msgid "Remove Name/Comment Translation"
 msgstr "د نوم/څرګندون ژباړه ړنګول"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:771
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:771
 msgid "Basic"
 msgstr "بنسټيز"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:779
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:779
 msgid "Advanced"
 msgstr "ژور"
 
-#: ../libgnome-desktop/gnome-hint.c:201
+#: ../libscarecrow-desktop/gnome-hint.c:201
 msgid "_Show Hints at Startup"
 msgstr "په پېلنګ کې اشارې ښودل_"
 

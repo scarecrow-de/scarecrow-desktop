@@ -1,11 +1,11 @@
-# Galician translation for gnome-desktop.
-# Copyright (C) 2020 gnome-desktop's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-desktop package.
+# Galician translation for scarecrow-desktop.
+# Copyright (C) 2020 scarecrow-desktop's COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-desktop package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop master\n"
+"Project-Id-Version: scarecrow-desktop master\n"
 "POT-Creation-Date: 2020-02-15 21:58+0000\n"
 "PO-Revision-Date: 2020-02-18 19:45+0100\n"
 "Last-Translator: Fran Diéguez <frandieguez@gnome.org>\n"

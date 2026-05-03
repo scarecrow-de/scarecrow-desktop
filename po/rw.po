@@ -1,6 +1,6 @@
-# translation of gnome-desktop to Kinyarwanda.
+# translation of scarecrow-desktop to Kinyarwanda.
 # Copyright (C) 2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-desktop package.
+# This file is distributed under the same license as the scarecrow-desktop package.
 # Steve Murphy <murf@e-tools.com>, 2005
 # Steve performed initial rough translation from compendium built from translations provided by the following translators:
 # Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
@@ -13,7 +13,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop 2.12\n"
+"Project-Id-Version: scarecrow-desktop 2.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-03-31 17:19-0700\n"
 "PO-Revision-Date: 2005-03-28 19:34-0700\n"
@@ -221,202 +221,202 @@ msgstr ""
 "Na Ubwiza"
 
 # svtools/source\misc\errtxt.src:RID_ERRHDL.ERRCODE_SFX_DOLOADFAILED.text
-#: libgnome-desktop/gnome-desktop-item.c:211
-#: libgnome-desktop/gnome-desktop-item.c:584
+#: libscarecrow-desktop/scarecrow-desktop-item.c:211
+#: libscarecrow-desktop/scarecrow-desktop-item.c:584
 #, fuzzy, c-format
 msgid "Error reading file '%s': %s"
 msgstr "Ikosa mu gusoma idosiye"
 
-#: libgnome-desktop/gnome-desktop-item.c:279
+#: libscarecrow-desktop/scarecrow-desktop-item.c:279
 #, fuzzy, c-format
 msgid "Error rewinding file '%s': %s"
 msgstr "IDOSIYE"
 
-#: libgnome-desktop/gnome-desktop-item.c:363
-#: libgnome-desktop/gnome-desktop-item.c:3610
+#: libscarecrow-desktop/scarecrow-desktop-item.c:363
+#: libscarecrow-desktop/scarecrow-desktop-item.c:3610
 #, fuzzy
 msgid "No name"
 msgstr "Izina:"
 
-#: libgnome-desktop/gnome-desktop-item.c:599
+#: libscarecrow-desktop/scarecrow-desktop-item.c:599
 #, fuzzy, c-format
 msgid "File '%s' is not a regular file or directory."
 msgstr "Idosiye ni OYA a Ibisanzwe IDOSIYE Cyangwa bushyinguro"
 
-#: libgnome-desktop/gnome-desktop-item.c:750
+#: libscarecrow-desktop/scarecrow-desktop-item.c:750
 #, fuzzy
 msgid "No filename to save to"
 msgstr "Izina ry'idosiye: Kuri Kubika Kuri"
 
-#: libgnome-desktop/gnome-desktop-item.c:1705
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1705
 #, c-format
 msgid "Starting %s"
 msgstr ""
 
-#: libgnome-desktop/gnome-desktop-item.c:1944
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1944
 #, fuzzy
 msgid "No URL to launch"
 msgstr "Kuri"
 
-#: libgnome-desktop/gnome-desktop-item.c:1954
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1954
 #, fuzzy
 msgid "Not a launchable item"
 msgstr "a Ikintu"
 
-#: libgnome-desktop/gnome-desktop-item.c:1964
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1964
 #, fuzzy
 msgid "No command (Exec) to launch"
 msgstr "Komandi: Kuri"
 
-#: libgnome-desktop/gnome-desktop-item.c:1977
+#: libscarecrow-desktop/scarecrow-desktop-item.c:1977
 #, fuzzy
 msgid "Bad command (Exec) to launch"
 msgstr "Komandi: Kuri"
 
-#: libgnome-desktop/gnome-desktop-item.c:3667
+#: libscarecrow-desktop/scarecrow-desktop-item.c:3667
 #, fuzzy, c-format
 msgid "Unknown encoding of: %s"
 msgstr "Imisobekere: Bya"
 
 # sw/source\ui\app\error.src:RID_SW_ERRHDL.ERR_CODE_(_ERRCODE_CLASS_WRITE_,_ERR_SWG_WRITE_ERROR_).text
-#: libgnome-desktop/gnome-desktop-item.c:3898
+#: libscarecrow-desktop/scarecrow-desktop-item.c:3898
 #, fuzzy, c-format
 msgid "Error writing file '%s': %s"
 msgstr "Ikosa mu kwandika idosiye"
 
 # svx/source\gallery2\gallery.src:RID_SVXDLG_GALLERY_SEARCH_PROGRESS.FL_SEARCH_DIR.text
-#: libgnome-desktop/gnome-ditem-edit.c:205
-#: libgnome-desktop/gnome-ditem-edit.c:213
+#: libscarecrow-desktop/gnome-ditem-edit.c:205
+#: libscarecrow-desktop/gnome-ditem-edit.c:213
 msgid "Directory"
 msgstr "Ububiko"
 
 # filter/source\xsltdialog\xmlfiltertabpagebasic.src:RID_XML_FILTER_TABPAGE_BASIC.FT_XML_APPLICATION.text
-#: libgnome-desktop/gnome-ditem-edit.c:209
+#: libscarecrow-desktop/gnome-ditem-edit.c:209
 msgid "Application"
 msgstr "Porogaramu"
 
 # offmgr/source\offapp\dialog\hyprlink.src:RID_SVXDLG_HYPERLINK.BTN_INSERT_BOOKMARK.text
-#: libgnome-desktop/gnome-ditem-edit.c:216
+#: libscarecrow-desktop/gnome-ditem-edit.c:216
 msgid "Link"
 msgstr "Ihuza"
 
-#: libgnome-desktop/gnome-ditem-edit.c:218
+#: libscarecrow-desktop/gnome-ditem-edit.c:218
 msgid "FSDevice"
 msgstr ""
 
-#: libgnome-desktop/gnome-ditem-edit.c:220
+#: libscarecrow-desktop/gnome-ditem-edit.c:220
 msgid "MIME Type"
 msgstr "Ubwoko bwa MIME"
 
 # 5501
-#: libgnome-desktop/gnome-ditem-edit.c:222
+#: libscarecrow-desktop/gnome-ditem-edit.c:222
 msgid "Service"
 msgstr "Imirimo"
 
-#: libgnome-desktop/gnome-ditem-edit.c:224
+#: libscarecrow-desktop/gnome-ditem-edit.c:224
 msgid "ServiceType"
 msgstr ""
 
-#: libgnome-desktop/gnome-ditem-edit.c:310
+#: libscarecrow-desktop/gnome-ditem-edit.c:310
 #, fuzzy
 msgid "_URL:"
 msgstr "URL"
 
 # padmin/source\padialog.src:RID_PADIALOG.RID_PA_TXT_COMMAND.text
-#: libgnome-desktop/gnome-ditem-edit.c:313
-#: libgnome-desktop/gnome-ditem-edit.c:380
+#: libscarecrow-desktop/gnome-ditem-edit.c:313
+#: libscarecrow-desktop/gnome-ditem-edit.c:380
 #, fuzzy
 msgid "Comm_and:"
 msgstr "Komandi:"
 
 # basctl/source\basicide\moduldlg.src:RID_DLG_NEWLIB.RID_FT_NEWLIB.text
 #. Name
-#: libgnome-desktop/gnome-ditem-edit.c:334
+#: libscarecrow-desktop/gnome-ditem-edit.c:334
 #, fuzzy
 msgid "_Name:"
 msgstr "Izina:"
 
 #. Generic Name
-#: libgnome-desktop/gnome-ditem-edit.c:351
+#: libscarecrow-desktop/gnome-ditem-edit.c:351
 #, fuzzy
 msgid "_Generic name:"
 msgstr "Izina:"
 
 # padmin/source\padialog.src:RID_PADIALOG.RID_PA_TXT_COMMENT.text
 #. Comment
-#: libgnome-desktop/gnome-ditem-edit.c:368
+#: libscarecrow-desktop/gnome-ditem-edit.c:368
 #, fuzzy
 msgid "Co_mment:"
 msgstr "Icyo wongeraho"
 
 # toolkit/source\awt\accessiblestrings.src:RID_STR_ACC_NAME_BROWSEBUTTON.text
-#: libgnome-desktop/gnome-ditem-edit.c:384
+#: libscarecrow-desktop/gnome-ditem-edit.c:384
 msgid "Browse"
 msgstr "Gushakisha"
 
 # sfx2/source\dialog\dinfdlg.src:TP_DOCINFODOC.FT_FILE_TYP.text
-#: libgnome-desktop/gnome-ditem-edit.c:395
+#: libscarecrow-desktop/gnome-ditem-edit.c:395
 #, fuzzy
 msgid "_Type:"
 msgstr "Ubwoko"
 
 # sfx2/source\toolbox\tbxopdlg.src:TP_CONFIG_OBJECTBAR.STR_SYMBOL.text
-#: libgnome-desktop/gnome-ditem-edit.c:412
+#: libscarecrow-desktop/gnome-ditem-edit.c:412
 #, fuzzy
 msgid "_Icon:"
 msgstr "Agashushondanga"
 
-#: libgnome-desktop/gnome-ditem-edit.c:422
+#: libscarecrow-desktop/gnome-ditem-edit.c:422
 #, fuzzy
 msgid "Browse icons"
 msgstr "Udushushondanga"
 
-#: libgnome-desktop/gnome-ditem-edit.c:436
+#: libscarecrow-desktop/gnome-ditem-edit.c:436
 #, fuzzy
 msgid "Run in t_erminal"
 msgstr "in"
 
 # setup2/source\ui\pages\plang.src:RESID_PAGE_PAGELANGUAGE.STR_LANGUAGE.text
-#: libgnome-desktop/gnome-ditem-edit.c:652
-#: libgnome-desktop/gnome-ditem-edit.c:750
+#: libscarecrow-desktop/gnome-ditem-edit.c:652
+#: libscarecrow-desktop/gnome-ditem-edit.c:750
 msgid "Language"
 msgstr "Ururimi"
 
-#: libgnome-desktop/gnome-ditem-edit.c:657
-#: libgnome-desktop/gnome-ditem-edit.c:757
+#: libscarecrow-desktop/gnome-ditem-edit.c:657
+#: libscarecrow-desktop/gnome-ditem-edit.c:757
 msgid "Name"
 msgstr "Izina"
 
-#: libgnome-desktop/gnome-ditem-edit.c:662
-#: libgnome-desktop/gnome-ditem-edit.c:764
+#: libscarecrow-desktop/gnome-ditem-edit.c:662
+#: libscarecrow-desktop/gnome-ditem-edit.c:764
 #, fuzzy
 msgid "Generic name"
 msgstr "Izina:"
 
 # padmin/source\padialog.src:RID_TXT_TESTPAGE_COMMENT.text
-#: libgnome-desktop/gnome-ditem-edit.c:667
-#: libgnome-desktop/gnome-ditem-edit.c:773
+#: libscarecrow-desktop/gnome-ditem-edit.c:667
+#: libscarecrow-desktop/gnome-ditem-edit.c:773
 msgid "Comment"
 msgstr "Icyo wongeraho"
 
-#: libgnome-desktop/gnome-ditem-edit.c:702
+#: libscarecrow-desktop/gnome-ditem-edit.c:702
 #, fuzzy
 msgid "_Try this before using:"
 msgstr "iyi Mbere ikoresha"
 
-#: libgnome-desktop/gnome-ditem-edit.c:713
+#: libscarecrow-desktop/gnome-ditem-edit.c:713
 msgid "_Documentation:"
 msgstr ""
 
-#: libgnome-desktop/gnome-ditem-edit.c:724
+#: libscarecrow-desktop/gnome-ditem-edit.c:724
 msgid "_Name/Comment translations:"
 msgstr ""
 
-#: libgnome-desktop/gnome-ditem-edit.c:775
+#: libscarecrow-desktop/gnome-ditem-edit.c:775
 msgid "_Add/Set"
 msgstr ""
 
-#: libgnome-desktop/gnome-ditem-edit.c:781
+#: libscarecrow-desktop/gnome-ditem-edit.c:781
 #, fuzzy
 msgid "Add or Set Name/Comment Translations"
 msgstr "Cyangwa"
@@ -425,24 +425,24 @@ msgstr "Cyangwa"
 # padmin/source\rtsetup.src:RID_RTS_FONTSUBSTPAGE.RID_RTS_FS_REMOVE_BTN.text
 # #-#-#-#-#  padmin.pot (Gnome 2.12)  #-#-#-#-#
 # padmin/source\rtsetup.src:RID_RTS_COMMANDPAGE.RID_RTS_CMD_BTN_REMOVE.text
-#: libgnome-desktop/gnome-ditem-edit.c:783
+#: libscarecrow-desktop/gnome-ditem-edit.c:783
 #, fuzzy
 msgid "Re_move"
 msgstr "Gukuraho"
 
-#: libgnome-desktop/gnome-ditem-edit.c:788
+#: libscarecrow-desktop/gnome-ditem-edit.c:788
 msgid "Remove Name/Comment Translation"
 msgstr ""
 
-#: libgnome-desktop/gnome-ditem-edit.c:804
+#: libscarecrow-desktop/gnome-ditem-edit.c:804
 msgid "Basic"
 msgstr "By'ibanze"
 
-#: libgnome-desktop/gnome-ditem-edit.c:812
+#: libscarecrow-desktop/gnome-ditem-edit.c:812
 msgid "Advanced"
 msgstr "Urwego rwo hejuru"
 
-#: libgnome-desktop/gnome-hint.c:175
+#: libscarecrow-desktop/gnome-hint.c:175
 #, fuzzy
 msgid "_Show Hints at Startup"
 msgstr "ku"

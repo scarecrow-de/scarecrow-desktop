@@ -1,14 +1,14 @@
-# translation of gnome-desktop.HEAD.ne.po to Nepali
-# Nepali Translation of gnome-desktop
+# translation of scarecrow-desktop.HEAD.ne.po to Nepali
+# Nepali Translation of scarecrow-desktop
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-desktop package.
+# This file is distributed under the same license as the scarecrow-desktop package.
 # Pawan Chitrakar <pawan@nplinux.org>.
 #
 # Narayan Kumar Magar <narayan@mpp.org.np>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: Nepali Translation Gnome  3.26\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-desktop/issues\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/scarecrow-desktop/issues\n"
 "POT-Creation-Date: 2019-07-15 00:21+0000\n"
 "PO-Revision-Date: 2019-08-29 13:53+0545\n"
 "Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
@@ -22,65 +22,65 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: libgnome-desktop/gnome-languages.c:717
+#: libscarecrow-desktop/gnome-languages.c:717
 msgid "Unspecified"
 msgstr "निर्दिष्ट नगरिएको"
 
 #. TRANSLATORS: Used to distinguish the labels representing the gez_ER
 #. and gez_ET locales from gez_ER@abegede respective gez_ET@abegede. The
 #. difference is related to collation.
-#: libgnome-desktop/gnome-languages.c:1377
+#: libscarecrow-desktop/gnome-languages.c:1377
 msgid "Abegede"
 msgstr "अबेगेडे"
 
-#: libgnome-desktop/gnome-languages.c:1378
+#: libscarecrow-desktop/gnome-languages.c:1378
 msgid "Cyrillic"
 msgstr "सिरिलिक"
 
-#: libgnome-desktop/gnome-languages.c:1379
+#: libscarecrow-desktop/gnome-languages.c:1379
 msgid "Devanagari"
 msgstr "देवनागरी"
 
 #. TRANSLATORS: Used to distinguish the label representing the tt_RU
 #. locale from tt_RU@iqtelif. It's a special alphabet for Tatar.
-#: libgnome-desktop/gnome-languages.c:1382
+#: libscarecrow-desktop/gnome-languages.c:1382
 msgid "IQTElif"
 msgstr "IQTElif"
 
 #. TRANSLATORS: The alphabet/script, not the language.
-#: libgnome-desktop/gnome-languages.c:1384
+#: libscarecrow-desktop/gnome-languages.c:1384
 msgid "Latin"
 msgstr "ल्याटिन"
 
 #. TRANSLATORS: "Saho" is a variant of the Afar language. Used to
 #. distinguish the label representing the aa_ER locale from aa_ER@saaho.
-#: libgnome-desktop/gnome-languages.c:1387
+#: libscarecrow-desktop/gnome-languages.c:1387
 msgid "Saho"
 msgstr "साहो"
 
 #. TRANSLATORS: "Valencia" is a dialect of the Catalan language spoken
 #. in Valencia. Used to distinguish the label representing the ca_ES
 #. locale from ca_ES@valencia.
-#: libgnome-desktop/gnome-languages.c:1391
+#: libscarecrow-desktop/gnome-languages.c:1391
 msgid "Valencia"
 msgstr "भ्यालेन्सिया"
 
-#: libgnome-desktop/gnome-rr-config.c:759
+#: libscarecrow-desktop/gnome-rr-config.c:759
 #, c-format
 msgid "CRTC %d cannot drive output %s"
 msgstr "सिआर्टिसि %d आउटपुट %s चलाउन सक्दैन"
 
-#: libgnome-desktop/gnome-rr-config.c:766
+#: libscarecrow-desktop/gnome-rr-config.c:766
 #, c-format
 msgid "output %s does not support mode %dx%d@%dHz"
 msgstr "आउटपुट %s मोड %dx%d@%dHz समर्थन गर्दैन"
 
-#: libgnome-desktop/gnome-rr-config.c:777
+#: libscarecrow-desktop/gnome-rr-config.c:777
 #, c-format
 msgid "CRTC %d does not support rotation=%d"
 msgstr "सिआर्टिसि %d रोटेसन् %d समर्थन गर्दैन"
 
-#: libgnome-desktop/gnome-rr-config.c:790
+#: libscarecrow-desktop/gnome-rr-config.c:790
 #, c-format
 msgid ""
 "output %s does not have the same parameters as another cloned output:\n"
@@ -93,24 +93,24 @@ msgstr ""
 "अवस्थित समकक्ष = (%d,%d), नयाँ समकक्ष = (%d,%d)\n"
 "अवस्थित रोटेशन =%d, नयाँ रोटेशन =%d"
 
-#: libgnome-desktop/gnome-rr-config.c:805
+#: libscarecrow-desktop/gnome-rr-config.c:805
 #, c-format
 msgid "cannot clone to output %s"
 msgstr "आउटपुट %s मा क्लोन हुनसक्दैन"
 
-#: libgnome-desktop/gnome-rr-config.c:931
+#: libscarecrow-desktop/gnome-rr-config.c:931
 #, c-format
 msgid "Trying modes for CRTC %d\n"
 msgstr ""
 "सिआर्टिसि %d\n"
 "का लागी मोडहरु कोसिस् गरिदै\n"
 
-#: libgnome-desktop/gnome-rr-config.c:955
+#: libscarecrow-desktop/gnome-rr-config.c:955
 #, c-format
 msgid "CRTC %d: trying mode %dx%d@%dHz with output at %dx%d@%dHz (pass %d)\n"
 msgstr "सिआर्टिसि %d %dx%d@%dHz (pass %d) मा आउटपुट दिदै %dx%d@%dHz कोसिस् गरिदै\n"
 
-#: libgnome-desktop/gnome-rr-config.c:1002
+#: libscarecrow-desktop/gnome-rr-config.c:1002
 #, c-format
 msgid ""
 "could not assign CRTCs to outputs:\n"
@@ -119,7 +119,7 @@ msgstr ""
 "सिआर्टिसिहरु %s\n"
 "आउटपुटहरुमा खटाउन सकियेन"
 
-#: libgnome-desktop/gnome-rr-config.c:1006
+#: libscarecrow-desktop/gnome-rr-config.c:1006
 #, c-format
 msgid ""
 "none of the selected modes were compatible with the possible modes:\n"
@@ -129,7 +129,7 @@ msgstr "कुनै पनि चयन गरियेका मोडहर�
 #. Translators: the "requested", "minimum", and
 #. * "maximum" words here are not keywords; please
 #. * translate them as usual.
-#: libgnome-desktop/gnome-rr-config.c:1087
+#: libscarecrow-desktop/gnome-rr-config.c:1087
 #, c-format
 msgid ""
 "required virtual size does not fit available size: requested=(%d, %d), minimum=(%d, %d), "
@@ -141,12 +141,12 @@ msgstr ""
 #. Translators: This is the time format with full date
 #. plus day used in 24-hour mode. Please keep the under-
 #. score to separate the date from the time.
-#: libgnome-desktop/gnome-wall-clock.c:332
+#: libscarecrow-desktop/gnome-wall-clock.c:332
 #| msgid "%a %b %e, %R:%S"
 msgid "%a %b %-e_%R:%S"
 msgstr "%a %b %-e_%R:%S"
 
-#: libgnome-desktop/gnome-wall-clock.c:333
+#: libscarecrow-desktop/gnome-wall-clock.c:333
 #| msgid "%a %b %e, %R"
 msgid "%a %b %-e_%R"
 msgstr "%a %b %-e_%R"
@@ -154,45 +154,45 @@ msgstr "%a %b %-e_%R"
 #. Translators: This is the time format with full date
 #. used in 24-hour mode. Please keep the underscore to
 #. separate the date from the time.
-#: libgnome-desktop/gnome-wall-clock.c:338
+#: libscarecrow-desktop/gnome-wall-clock.c:338
 #| msgid "%a %b %e, %R:%S"
 msgid "%b %-e_%R:%S"
 msgstr "%b %-e_%R:%S"
 
-#: libgnome-desktop/gnome-wall-clock.c:339
+#: libscarecrow-desktop/gnome-wall-clock.c:339
 #| msgid "%a %b %e, %R"
 msgid "%b %-e_%R"
 msgstr "%b %-e_%R"
 
 #. Translators: This is the time format with day used
 #. in 24-hour mode.
-#: libgnome-desktop/gnome-wall-clock.c:343
+#: libscarecrow-desktop/gnome-wall-clock.c:343
 msgid "%a %R:%S"
 msgstr "%a %R:%S"
 
-#: libgnome-desktop/gnome-wall-clock.c:344
+#: libscarecrow-desktop/gnome-wall-clock.c:344
 msgid "%a %R"
 msgstr "%a %R"
 
 #. Translators: This is the time format without date used
 #. in 24-hour mode.
-#: libgnome-desktop/gnome-wall-clock.c:348
+#: libscarecrow-desktop/gnome-wall-clock.c:348
 msgid "%R:%S"
 msgstr "%R:%S"
 
-#: libgnome-desktop/gnome-wall-clock.c:349
+#: libscarecrow-desktop/gnome-wall-clock.c:349
 msgid "%R"
 msgstr "%R"
 
 #. Translators: This is a time format with full date
 #. plus day used for AM/PM. Please keep the under-
 #. score to separate the date from the time.
-#: libgnome-desktop/gnome-wall-clock.c:357
+#: libscarecrow-desktop/gnome-wall-clock.c:357
 #| msgid "%a %b %e, %l:%M:%S %p"
 msgid "%a %b %-e_%l:%M:%S %p"
 msgstr "%a %b %-e_%l:%M:%S %p"
 
-#: libgnome-desktop/gnome-wall-clock.c:358
+#: libscarecrow-desktop/gnome-wall-clock.c:358
 #| msgid "%a %b %e, %l:%M %p"
 msgid "%a %b %-e_%l:%M %p"
 msgstr "%a %b %-e_%l:%M %p"
@@ -200,33 +200,33 @@ msgstr "%a %b %-e_%l:%M %p"
 #. Translators: This is a time format with full date
 #. used for AM/PM. Please keep the underscore to
 #. separate the date from the time.
-#: libgnome-desktop/gnome-wall-clock.c:363
+#: libscarecrow-desktop/gnome-wall-clock.c:363
 #| msgid "%a %b %e, %l:%M:%S %p"
 msgid "%b %-e_%l:%M:%S %p"
 msgstr "%b %-e_%l:%M:%S %p"
 
-#: libgnome-desktop/gnome-wall-clock.c:364
+#: libscarecrow-desktop/gnome-wall-clock.c:364
 #| msgid "%a %b %e, %l:%M %p"
 msgid "%b %-e_%l:%M %p"
 msgstr "%b %-e_%l:%M %p"
 
 #. Translators: This is a time format with day used
 #. for AM/PM.
-#: libgnome-desktop/gnome-wall-clock.c:368
+#: libscarecrow-desktop/gnome-wall-clock.c:368
 msgid "%a %l:%M:%S %p"
 msgstr "%a %l:%M:%S %p"
 
-#: libgnome-desktop/gnome-wall-clock.c:369
+#: libscarecrow-desktop/gnome-wall-clock.c:369
 msgid "%a %l:%M %p"
 msgstr "%a %l:%M %p"
 
 #. Translators: This is a time format without date used
 #. for AM/PM.
-#: libgnome-desktop/gnome-wall-clock.c:373
+#: libscarecrow-desktop/gnome-wall-clock.c:373
 msgid "%l:%M:%S %p"
 msgstr "%l:%M:%S %p"
 
-#: libgnome-desktop/gnome-wall-clock.c:374
+#: libscarecrow-desktop/gnome-wall-clock.c:374
 msgid "%l:%M %p"
 msgstr "%l∶%M %p"
 

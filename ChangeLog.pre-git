@@ -205,7 +205,7 @@
 
         * configure.in:
 	Bump version to 2.25.1
-	Remove dependencies on libgnome*
+	Remove dependencies on libscarecrow*
 
 2008-09-22  Vincent Untz  <vuntz@gnome.org>
 
@@ -250,7 +250,7 @@
 
 2008-08-25  Adam Jackson  <ajax@redhat.com>
 
-	* libgnome-desktop/gnome-rr.c: (read_edid_data): Allow E-EDID blocks.
+	* libscarecrow-desktop/gnome-rr.c: (read_edid_data): Allow E-EDID blocks.
 
 2008-08-18  Olav Vitters  <olav@bkor.dhs.org>
 
@@ -295,7 +295,7 @@
 
 2008-06-20  Christian Persch  <chpe@gnome.org>
 
-	* libgnome-desktop/libgnomeui/gnome-ditem-edit.h: Don't use deprecated
+	* libscarecrow-desktop/libscarecrowui/gnome-ditem-edit.h: Don't use deprecated
 	gtk macros. Bug #539169.
 
 Tue Jun 17 19:35:39 2008  Søren Sandmann  <sandmann@redhat.com>
@@ -422,7 +422,7 @@ Tue Jun 17 19:35:39 2008  Søren Sandmann  <sandmann@redhat.com>
 
 2008-02-05  Vincent Untz  <vuntz@gnome.org>
 
-	* libgnome-desktop/gnome-desktop-item.c: (ditem_load): free the
+	* libscarecrow-desktop/gnome-desktop-item.c: (ditem_load): free the
 	readbuf after its last use, not before...
 	Fix bug #514560.
 
@@ -460,7 +460,7 @@ Tue Jun 17 19:35:39 2008  Søren Sandmann  <sandmann@redhat.com>
 2008-01-07  Vincent Untz  <vuntz@gnome.org>
 
 	* configure.in: pkg-config (and old checks) for X11
-	* libgnome-desktop/Makefile.am: add X11 libs and cflags
+	* libscarecrow-desktop/Makefile.am: add X11 libs and cflags
 	Fix bug #504635
 
 2007-12-18  Vincent Untz  <vuntz@gnome.org>
@@ -771,15 +771,15 @@ Tue Jun 17 19:35:39 2008  Søren Sandmann  <sandmann@redhat.com>
 	* configure.in:
 	* gnome-about/Makefile.am:
 	* gnome-about/gnome-about.c: (get_description_messages), (main):
-	* libgnome-desktop/Makefile.am:
-	* libgnome-desktop/gnome-desktop-item.c:
-	* libgnome-desktop/gnome-ditem-edit.c: (gnome_ditem_edit_init),
+	* libscarecrow-desktop/Makefile.am:
+	* libscarecrow-desktop/gnome-desktop-item.c:
+	* libscarecrow-desktop/gnome-ditem-edit.c: (gnome_ditem_edit_init),
 	(gnome_ditem_edit_destroy), (gnome_ditem_edit_finalize):
-	* libgnome-desktop/gnome-hint.c: (gnome_hint_finalize),
+	* libscarecrow-desktop/gnome-hint.c: (gnome_hint_finalize),
 	(get_i18n_string), (read_hints_from_file), (gnome_hint_new):
-	* libgnome-desktop/test-ditem-edit.c:
-	* libgnome-desktop/test-ditem.c:
-	* libgnome-desktop/test-hint.c:
+	* libscarecrow-desktop/test-ditem-edit.c:
+	* libscarecrow-desktop/test-ditem.c:
+	* libscarecrow-desktop/test-hint.c:
 	Fix all compiler warnings, and use undeprecated functions (mostly).
 	Bug #394228.
 
@@ -911,8 +911,8 @@ Tue Jun 17 19:35:39 2008  Søren Sandmann  <sandmann@redhat.com>
 
 2006-06-03  Christian Persch  <chpe@cvs.gnome.org>
 
-	* libgnome-desktop/Makefile.am:
-	* libgnome-desktop/test-ditem-edit.c: (main): Set
+	* libscarecrow-desktop/Makefile.am:
+	* libscarecrow-desktop/test-ditem-edit.c: (main): Set
 	GNOME_PARAM_APP_DATADIR. Fixes bug #343320.
 
 2006-05-15  Vincent Untz  <vuntz@gnome.org>
@@ -1090,10 +1090,10 @@ Tue Jun 17 19:35:39 2008  Søren Sandmann  <sandmann@redhat.com>
 	* gnome-about/gnome-about.c: (display_contributors): remove
 	contributor_rect
 	(display_introduction_message): remove intro_rect
-	* libgnome-desktop/gnome-desktop-item.c: (do_percent_subst): remove
+	* libscarecrow-desktop/gnome-desktop-item.c: (do_percent_subst): remove
 	useless break
-	* libgnome-desktop/test-ditem.c: (test_ditem): fix type warning
-	* libgnome-desktop/test-hint.c: (main): remove unused code
+	* libscarecrow-desktop/test-ditem.c: (test_ditem): fix type warning
+	* libscarecrow-desktop/test-hint.c: (main): remove unused code
 
 2005-11-14  Vincent Untz  <vuntz@gnome.org>
 
@@ -1183,7 +1183,7 @@ Tue Jun 17 19:35:39 2008  Søren Sandmann  <sandmann@redhat.com>
 
 	Patch from Christian Persch <chpe@gnome.org> in bug #156687
 
-	* configure.in: require gtk+ 2.4.0 and libgnomeui 2.6.0
+	* configure.in: require gtk+ 2.4.0 and libscarecrowui 2.6.0
 	so we can use GtkIconTheme
 
 2005-07-20  Vincent Untz  <vuntz@gnome.org>
@@ -1223,7 +1223,7 @@ Tue Jun 17 19:35:39 2008  Søren Sandmann  <sandmann@redhat.com>
 
 2005-06-13  Kjartan Maraas  <kmaraas@gnome.org>
 
-	* libgnome-desktop/gnome-ditem-edit.c: (translations_select_row):
+	* libscarecrow-desktop/gnome-ditem-edit.c: (translations_select_row):
 	Don't leak the category name. Closes bug #307494.
 
 2005-06-07  Vincent Untz  <vuntz@gnome.org>
@@ -1402,15 +1402,15 @@ Tue Jun 17 19:35:39 2008  Søren Sandmann  <sandmann@redhat.com>
 2004-11-18  Vincent Untz  <vincent@vuntz.net>
 
 	* configure.in: we depend on glib >= 2.5.3
-	* libgnome-desktop/Makefile.am: updated after gnome-desktop-i18n.[ch]
+	* libscarecrow-desktop/Makefile.am: updated after gnome-desktop-i18n.[ch]
 	removal
-	* libgnome-desktop/gnome-desktop-i18n.[ch]: die!
-	* libgnome-desktop/gnome-desktop-item.c: (lookup_locale): use
+	* libscarecrow-desktop/gnome-desktop-i18n.[ch]: die!
+	* libscarecrow-desktop/gnome-desktop-item.c: (lookup_locale): use
 	g_get_language_names instead of deprecated gnome_i18n_get_language_list
 	(gnome_desktop_item_get_attr_locale): ditto
 	(get_language): ditto
-	* libgnome-desktop/gnome-ditem-edit.c: use gi18n.h
-	* libgnome-desktop/gnome-hint.c: (find_lang): updated
+	* libscarecrow-desktop/gnome-ditem-edit.c: use gi18n.h
+	* libscarecrow-desktop/gnome-hint.c: (find_lang): updated
 	(get_i18n_string): use g_get_language_names instead of deprecated
 	gnome_i18n_get_language_list
 
@@ -1658,34 +1658,34 @@ Tue Jun 17 19:35:39 2008  Søren Sandmann  <sandmann@redhat.com>
 	Moving 3 headers around to make it possible to build against
 	uninstalled gnome-desktop; adding uninstalled.pc file.
 
-	* libgnome-desktop/gnome-desktop-item.c: 
+	* libscarecrow-desktop/gnome-desktop-item.c: 
 
-	* libgnome-desktop/gnome-desktop-item.h: move this to libgnome/
+	* libscarecrow-desktop/gnome-desktop-item.h: move this to libscarecrow/
 	  subdir
 
-	* libgnome-desktop/gnome-ditem-edit.h: move to libgnomeui/ subdir
+	* libscarecrow-desktop/gnome-ditem-edit.h: move to libscarecrowui/ subdir
 
-	* libgnome-desktop/gnome-hint.h: move to libgnomeui/ subdir
+	* libscarecrow-desktop/gnome-hint.h: move to libscarecrowui/ subdir
 
-	* libgnome-desktop/libgnome/Makefile.am: new file
+	* libscarecrow-desktop/libscarecrow/Makefile.am: new file
 
-	* libgnome-desktop/libgnomeui/Makefile.am: new file
+	* libscarecrow-desktop/libscarecrowui/Makefile.am: new file
 
-	* libgnome-desktop/gnome-ditem-edit.c: update #include's of the moved
+	* libscarecrow-desktop/gnome-ditem-edit.c: update #include's of the moved
 	  headers
 
-	* libgnome-desktop/gnome-hint.c: update #include
+	* libscarecrow-desktop/gnome-hint.c: update #include
 
-	* libgnome-desktop/test-ditem-edit.c: update #include
+	* libscarecrow-desktop/test-ditem-edit.c: update #include
 
-	* libgnome-desktop/test-ditem.c: update #include
+	* libscarecrow-desktop/test-ditem.c: update #include
 
-	* libgnome-desktop/test-hint.c: update #include
+	* libscarecrow-desktop/test-hint.c: update #include
 
-	* libgnome-desktop/gnome-desktop-2.0-uninstalled.pc.in: new file
+	* libscarecrow-desktop/gnome-desktop-2.0-uninstalled.pc.in: new file
 
-	* libgnome-desktop/Makefile.am: remove the installed headers
-          from here, add libgnome, libgnomeui subdirs
+	* libscarecrow-desktop/Makefile.am: remove the installed headers
+          from here, add libscarecrow, libscarecrowui subdirs
 
 	* configure.in: add the new pc file and Makefiles.
 
@@ -1757,7 +1757,7 @@ Tue Jun 17 19:35:39 2008  Søren Sandmann  <sandmann@redhat.com>
 
 2003-11-11  Padraig O'Briain  <padraig.obriain@sun.com>
 
-	* libgnome-desktop/gnome-ditem.edit.c (make_easy_page):
+	* libscarecrow-desktop/gnome-ditem.edit.c (make_easy_page):
 	Set mnemonic widget for Command to be GtkCombo withing GomeFileEntry
 	widget. Fixes bug #126175.
 
@@ -1835,7 +1835,7 @@ Fri Sep 19 15:49:50 2003  George Lebl <jirka@5z.com>
 
 Tue Jul 29 15:03:56 2003  George Lebl <jirka@5z.com>
 
-	* libgnome-desktop/gnome-desktop-item.c: Follow KDE behaviour on %i,
+	* libscarecrow-desktop/gnome-desktop-item.c: Follow KDE behaviour on %i,
 	  %m, %c and %k to launch KDE apps properly.  The spec is incredibly
 	  vague on these and no GNOME apps really use these.
 
@@ -1956,7 +1956,7 @@ Sat Mar 31 22:19:23 2003  Kristian Rietveld  <kris@gtk.org>
 	* configure.in: call AC_LIBTOOL_WIN32_DLL which is necessary for
 	building shared library on win32 platform.
 
-	* libgnome-desktop/Makefile.am (libgnome_desktop_2_la_LDFLAGS):
+	* libscarecrow-desktop/Makefile.am (libscarecrow_desktop_2_la_LDFLAGS):
 	add -no-undefined which is necessary for building shared library
 	on some platforms (e.g. Win32 and BeOS).
 
@@ -2095,13 +2095,13 @@ Sat Mar 31 22:19:23 2003  Kristian Rietveld  <kris@gtk.org>
 
 2003-01-22  Frederic Crozat  <fcrozat@mandrakesoft.com>
 
-	* libgnome-desktop/Makefile.am:
-	* libgnome-desktop/gnome-desktop-i18n.c: (_gnome_desktop_gettext):
-	* libgnome-desktop/gnome-desktop-i18n.h:
-	* libgnome-desktop/gnome-desktop-item.c:
-	* libgnome-desktop/gnome-ditem-edit.c:
+	* libscarecrow-desktop/Makefile.am:
+	* libscarecrow-desktop/gnome-desktop-i18n.c: (_gnome_desktop_gettext):
+	* libscarecrow-desktop/gnome-desktop-i18n.h:
+	* libscarecrow-desktop/gnome-desktop-item.c:
+	* libscarecrow-desktop/gnome-ditem-edit.c:
 	(gnome_ditem_edit_class_init):
-	* libgnome-desktop/gnome-hint.c:
+	* libscarecrow-desktop/gnome-hint.c:
 	ensure gettext is correctly initialized before using it
 
 2003-01-22  Christian Rose  <menthos@menthos.com>
@@ -2265,7 +2265,7 @@ Sat Mar 31 22:19:23 2003  Kristian Rietveld  <kris@gtk.org>
 
 2002-06-17  Frank Worsley  <fworsley@shaw.ca>
 
-	* libgnome-desktop/gnome-desktop-item.c:
+	* libscarecrow-desktop/gnome-desktop-item.c:
 	(stringify_files):
 	correctly determine local path for %f and %F parameters
 	in Exec field
@@ -2273,7 +2273,7 @@ Sat Mar 31 22:19:23 2003  Kristian Rietveld  <kris@gtk.org>
 	(ditem_execute), (gnome_desktop_item_launch):
 	support new launch options
 	
-	* libgnome-desktop/gnome-desktop-item.h:
+	* libscarecrow-desktop/gnome-desktop-item.h:
 	added new GNOME_DESKTOP_ITEM_LAUNCH_APPEND_URIS option
 	to always append command line parameters even if no
 	Exec field parameters are present
@@ -2297,7 +2297,7 @@ Sat Mar 31 22:19:23 2003  Kristian Rietveld  <kris@gtk.org>
 
 2002-06-12  Jody Goldberg <jody@gnome.org>
 
-	* libgnome-desktop/gnome-desktop-item.c (ditem_load) : avoid using
+	* libscarecrow-desktop/gnome-desktop-item.c (ditem_load) : avoid using
 	  freed memory.
 
 2002-06-10  Mark McLoughlin  <mark@skynet.ie>
@@ -2310,10 +2310,10 @@ Sat Mar 31 22:19:23 2003  Kristian Rietveld  <kris@gtk.org>
 
 2002-06-02  Frank Worsley  <fworsley@shaw.ca>
 
-	* libgnome-desktop/gnome-desktop-item.c:
+	* libscarecrow-desktop/gnome-desktop-item.c:
 	don't forget to copy the languages list
 	
-	* libgnome-desktop/gnome-ditem-edit.c:
+	* libscarecrow-desktop/gnome-ditem-edit.c:
 	make the translation list (almost) work right
 
 2002-05-28  Mark McLoughlin  <mark@skynet.ie>
@@ -2338,16 +2338,16 @@ Sat Mar 31 22:19:23 2003  Kristian Rietveld  <kris@gtk.org>
 
 2002-05-21  Frank Worsley  <fworsley@shaw.ca>
 
-	* libgnome-desktop/gnome-desktop-item.c:
+	* libscarecrow-desktop/gnome-desktop-item.c:
 	(gnome_desktop_item_new_from_uri): make sure we only load
 	valid files and fix a bug where we created a new item although
 	we weren't supposed to
 
-	* libgnome-desktop/gnome-desktop-item.h: add a new error type
+	* libscarecrow-desktop/gnome-desktop-item.h: add a new error type
 	
 Mon May 20 16:05:29 2002  George Lebl <jirka@5z.com>
 
-	* libgnomedesktop/gnome-desktop-item.c: some strings which were not
+	* libscarecrowdesktop/gnome-desktop-item.c: some strings which were not
 	  to be translated, were.  Whoops!
 
 2002-05-21  Mark McLoughlin  <mark@skynet.ie>
@@ -2466,7 +2466,7 @@ Mon May 20 16:05:29 2002  George Lebl <jirka@5z.com>
 
 2002-02-13  Mark McLoughlin  <mark@skynet.ie>
 
-	* AUTHORS: update to reflect libgnome-desktop and
+	* AUTHORS: update to reflect libscarecrow-desktop and
 	gnome-about authors.
 
 	* MAINTAINERS, HACKING: me and george for the moment.

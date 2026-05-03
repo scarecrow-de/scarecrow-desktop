@@ -1,11 +1,11 @@
-# Malagasy translation of Gnome-desktop.
-# Copyright (C) 2006-2008 THE gnome-desktop'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-desktop package.
+# Malagasy translation of scarecrow-desktop.
+# Copyright (C) 2006-2008 THE scarecrow-desktop'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the scarecrow-desktop package.
 # Thierry Randrianiriana <randrianiriana@gmail.com>, 2006-2008.
 # Fano Rajaonarisoa <fano@isvtec.com>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop VERSION\n"
+"Project-Id-Version: scarecrow-desktop VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-07-09 09:15+0000\n"
 "PO-Revision-Date: 2008-08-19 22:25+0300\n"
@@ -156,204 +156,204 @@ msgstr ""
 "karazany, toy ny fandikan-teny, ny loharanon-kevitra, ary ny fiantohana "
 "kalitao."
 
-#: ../libgnome-desktop/display-name.c:212
+#: ../libscarecrow-desktop/display-name.c:212
 msgid "Laptop"
 msgstr "Solosaina maivana"
 
-#: ../libgnome-desktop/display-name.c:220
+#: ../libscarecrow-desktop/display-name.c:220
 msgid "Unknown"
 msgstr "Tsy fantatra"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:219
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:219
 #, c-format
 msgid "Error reading file '%s': %s"
 msgstr "Nisy olana teo am-pamakiana ny rakitra  '%s': %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:287
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:287
 #, c-format
 msgid "Error rewinding file '%s': %s"
 msgstr "Nisy olana teo am-pampihoronana ny rakitra '%s': %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:389
-#: ../libgnome-desktop/gnome-desktop-item.c:3756
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:389
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3756
 msgid "No name"
 msgstr "Tsy misy anarana"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:616
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:616
 #, c-format
 msgid "File '%s' is not a regular file or directory."
 msgstr "Ny rakitra '%s' dia rakitra na laha-tahiry tsy mahazatra."
 
-#: ../libgnome-desktop/gnome-desktop-item.c:796
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:796
 #, c-format
 msgid "Error cannot find file id '%s'"
 msgstr "Olana: tsy afaka.hita ny rakitra.id.'%s'"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:842
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:842
 #, c-format
 msgid "No filename to save to"
 msgstr "Tsy misy anaran-drakitra ho raiketina anatin'ny"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:1827
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:1827
 #, c-format
 msgid "Starting %s"
 msgstr "Mandefa ny %s"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2063
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2063
 #, c-format
 msgid "No URL to launch"
 msgstr "Tsy misy URL alefa"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2076
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2076
 #, c-format
 msgid "Not a launchable item"
 msgstr "Zavatra tsy mety alefa"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2086
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2086
 #, c-format
 msgid "No command (Exec) to launch"
 msgstr "Tsy misy baiko (Exec) ho tanterahina"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:2099
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:2099
 #, c-format
 msgid "Bad command (Exec) to launch"
 msgstr "Baiko (Exec) tsy mety"
 
-#: ../libgnome-desktop/gnome-desktop-item.c:3812
+#: ../libscarecrow-desktop/scarecrow-desktop-item.c:3812
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "Fanafangoana tsy fantatra ny: %s"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:209
-#: ../libgnome-desktop/gnome-ditem-edit.c:217
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:209
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:217
 msgid "Directory"
 msgstr "Laha-tahiry"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:213
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:213
 msgid "Application"
 msgstr "Rindran'asa"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:220
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:220
 msgid "Link"
 msgstr "Rohy"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:222
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:222
 msgid "FSDevice"
 msgstr "PeriferikaFS"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:224
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:224
 msgid "MIME Type"
 msgstr "Kararazana MIME"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:226
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:226
 msgid "Service"
 msgstr "Raharaha"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:228
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:228
 msgid "ServiceType"
 msgstr "Karazan-draharaha"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:314
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:314
 msgid "_URL:"
 msgstr "_URL:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:317
-#: ../libgnome-desktop/gnome-ditem-edit.c:384
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:317
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:384
 msgid "Comm_and:"
 msgstr "B_aiko:"
 
 #. Name
-#: ../libgnome-desktop/gnome-ditem-edit.c:338
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:338
 msgid "_Name:"
 msgstr "_Anarana:"
 
 #. Generic Name
-#: ../libgnome-desktop/gnome-ditem-edit.c:355
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:355
 msgid "_Generic name:"
 msgstr "_Anarana ankapobe:"
 
 #. Comment
-#: ../libgnome-desktop/gnome-ditem-edit.c:372
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:372
 msgid "Co_mment:"
 msgstr "Fa_nazavana"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:388
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:388
 msgid "Browse"
 msgstr "Zahavo"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:399
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:399
 msgid "_Type:"
 msgstr "_Karazana:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:416
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:416
 msgid "_Icon:"
 msgstr "_Kisary:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:426
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:426
 msgid "Browse icons"
 msgstr "Hizaha kisary"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:440
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:440
 msgid "Run in t_erminal"
 msgstr "Alefaso amin'ny alalan'ny T_erminal"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:621
-#: ../libgnome-desktop/gnome-ditem-edit.c:721
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:621
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:721
 msgid "Language"
 msgstr "Teny"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:626
-#: ../libgnome-desktop/gnome-ditem-edit.c:727
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:626
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:727
 msgid "Name"
 msgstr "Anarana"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:631
-#: ../libgnome-desktop/gnome-ditem-edit.c:733
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:631
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:733
 msgid "Generic name"
 msgstr "Anarana ankapobe"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:636
-#: ../libgnome-desktop/gnome-ditem-edit.c:741
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:636
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:741
 msgid "Comment"
 msgstr "Fanazavana"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:674
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:674
 msgid "_Try this before using:"
 msgstr "_Andramo aloha ity alohan'ny ampiasana ny:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:685
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:685
 msgid "_Documentation:"
 msgstr "_Loharanon-kevitra:"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:696
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:696
 msgid "_Name/Comment translations:"
 msgstr "_dikan'anarana/fanazavana"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:743
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:743
 msgid "_Add/Set"
 msgstr "H_anampy/Hanoratra"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:748
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:748
 msgid "Add or Set Name/Comment Translations"
 msgstr "Hanampy na hanoratra dikan'ny Anarana/Fanazavana"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:750
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:750
 msgid "Re_move"
 msgstr "E_sory"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:755
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:755
 msgid "Remove Name/Comment Translation"
 msgstr "Esory ny dikan'ny anarana/fanazavana "
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:771
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:771
 msgid "Basic"
 msgstr "Fototra"
 
-#: ../libgnome-desktop/gnome-ditem-edit.c:779
+#: ../libscarecrow-desktop/gnome-ditem-edit.c:779
 msgid "Advanced"
 msgstr "Avo lenta"
 
-#: ../libgnome-desktop/gnome-hint.c:201
+#: ../libscarecrow-desktop/gnome-hint.c:201
 msgid "_Show Hints at Startup"
 msgstr "_Asehoy ireo toro-hevitra madinidinika eny am-piantombohana"
 

@@ -322,7 +322,7 @@ Sun Dec  2 13:14:22 2001  Owen Taylor  <otaylor@redhat.com>
 
 	* panel/quick-desktop-reader.c,
 	  gnome-desktop/gnome-desktop-item.c:
-	Remove libgnomevfs/gnome-vfs-mime-utils.h that neither
+	Remove libscarecrowvfs/gnome-vfs-mime-utils.h that neither
 	exists nor is needed any more.
 
 2001-11-23  Mark McLoughlin  <mark@skynet.ie>
@@ -446,8 +446,8 @@ Mon, 19 Nov 2001 02:06:20 -0500 Frank Belew <frb@ximian.com>
 	* Makefile.am (SUBDIRS): 
 	* configure.in: build gnome-terminal
 	: update things to not need gnome1-compat - at least until the
-	libgnome* thing is more stabilized
-	: check if libgnomeui was linked against -lSM (for gnome-session,
+	libscarecrow* thing is more stabilized
+	: check if libscarecrowui was linked against -lSM (for gnome-session,
 	which i won't be comimtting yet)
 
 2001-08-22  Abel Cheung <maddog@linux.org.hk>
@@ -464,7 +464,7 @@ Mon, 19 Nov 2001 02:06:20 -0500 Frank Belew <frb@ximian.com>
 
 2001-08-09  Martin Baulig  <baulig@suse.de>
 
-	* configure.in (PANEL): Require libgnome1-compat.
+	* configure.in (PANEL): Require libscarecrow1-compat.
 
 2001-08-06  Gregory Leblanc  <gleblanc@linuxweasel.com>
 
@@ -485,7 +485,7 @@ Mon, 19 Nov 2001 02:06:20 -0500 Frank Belew <frb@ximian.com>
 2001-08-06  Martin Baulig  <baulig@suse.de>
 
 	* gnome-desktop/: New directory. This is the ditem code which was
-	in libgnome/monikers and libgnome/libgnome/gnome-ditem.[ch].
+	in libscarecrow/monikers and libscarecrow/libscarecrow/gnome-ditem.[ch].
 
 2001-08-06  Martin Baulig  <baulig@suse.de>
 
@@ -1324,7 +1324,7 @@ Sun Sep 03 06:31:46 2000  George Lebl <jirka@5z.com>
 	files after talking to George.
 	* desktop-links/Makefile.am: added the new files
 
-	Andreas Hydén is now testing then, and will submit
+	Andreas Hydï¿½n is now testing then, and will submit
 	changes if there are errors
 
 2000-05-04  Jacob Berkman  <jacob@helixcode.com>
@@ -1465,7 +1465,7 @@ Sat Mar 04 18:35:59 2000  George Lebl <jirka@5z.com>
 
 	* configure.in : Added tr to ALL_LINGUAS .
 
-2000-2-11   Tomasz K³oczko <kloczek@pld.org.pl>
+2000-2-11   Tomasz Kï¿½oczko <kloczek@pld.org.pl>
 	* desktop-links/balsa.desktop
 	* pixmaps/gnome-balsa2.png: moved to balsa module,
 	
@@ -1772,7 +1772,7 @@ Mon May 10 14:10:51 1999  George Lebl  <jirka@5z.com>
 	so you can point at KDE menus in a different location.
 	(Should thus just be --with-kde-dir?)
 
-1999-04-07  Viööe Pätsi  <drc@gnu.org>
+1999-04-07  Viï¿½ï¿½e Pï¿½tsi  <drc@gnu.org>
 
 	* pixmaps/tile-drc-4-up.png: New tile.
 	* pixmaps/tile-drc-4-down.png: New tile.
@@ -1995,7 +1995,7 @@ Tue Dec 29 14:46:39 1998  Maciej Stachowiak  <mstachow@mit.edu>
 1998-12-07  James Henstridge <james@daa.com.au>
 
 	* capplets/url-properties: a new applet to configure the behaviour of
-	the gnome_url_show function in libgnome.
+	the gnome_url_show function in libscarecrow.
 
 1998-12-06  Tuomas Kuosmanen  <tigert@gimp.org>
 

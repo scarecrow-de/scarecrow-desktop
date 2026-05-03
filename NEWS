@@ -588,7 +588,7 @@ Version  3.18.0
 Version  3.17.92
 ================
 
-- Support g_autoptr() for all libgnome-desktop object types
+- Support g_autoptr() for all libscarecrow-desktop object types
 
 ================
 Version  3.17.90
@@ -1136,7 +1136,7 @@ Version 3.5.2
 Version 3.3.92
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeBG:
 	  - Publish the 'representative color' (Ryan Lortie)
@@ -1154,7 +1154,7 @@ Version 3.3.92
 Version 3.3.91
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Add missing linking with -lrt for clock_gettime() (Martin Pitt)
 	* GnomeRR: Consider Embedded Display Port outputs as the laptop's
@@ -1168,7 +1168,7 @@ Version 3.3.91
 Version 3.3.90
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeBG: Add paranoid check to avoid crash (Gordon Allott)
 
@@ -1192,7 +1192,7 @@ Version 3.3.5
 Version 3.3.4
 =============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR:
 	  - Use GDK to get work area (Bastien Nocera)
@@ -1213,7 +1213,7 @@ No change, just a version bump: it'd be a shame to miss the 3.3.3 release :-)
 Version 3.3.2
 =============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR:
 	  - Don't refresh the GnomeRRScreen when applying a matched
@@ -1223,7 +1223,7 @@ Version 3.3.2
 Version 3.3.1
 =============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomePnpIds: Add object to get the vendor name from PNP IDs
 	  (Bastien Nocera)
@@ -1255,7 +1255,7 @@ Version 3.3.1
 Version 3.1.91
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Add GnomeWallClock (Colin Walters)
 
@@ -1269,7 +1269,7 @@ Version 3.1.91
 Version 3.1.90.1
 ================
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Link against libm (Frederic Peters)
 
@@ -1277,7 +1277,7 @@ Version 3.1.90.1
 Version 3.1.90
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
         * Remove GnomeTzMonitor (Bastien Nocera)
 
@@ -1286,7 +1286,7 @@ Version 3.1.90
 Version 3.1.5
 =============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Fix settings the DPMS mode (Richard Hughes)
 
@@ -1295,7 +1295,7 @@ Version 3.1.5
 Version 3.1.4
 =============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Add the capability to get and set the DPMS mode of the
 	  screen (Richard Hughes)
@@ -1318,7 +1318,7 @@ Note to packagers: while new API was added in this release, the version of the
 library is unchanged; this is because we already did a major bump earlier in
 3.1.x.
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Add methods to control the backlight on each output (Richard
 	  Hughes)
@@ -1341,7 +1341,7 @@ Version 3.1.2
 Note to packagers: this release breaks ABI compatibility in GnomeRR, so the
 version of the library was bumped.
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeDesktopThumbnail: Use GOnce for thread safety (Colin Walters)
 	* GnomeRR: Add a size return value to gnome_rr_output_get_edid_data()
@@ -1361,7 +1361,7 @@ version of the library was bumped.
 Version 3.1.1
 =============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Fix crash whden randr is not available (Matthias Clasen)
 	* GnomeRR: Add ability to show and hide the monitor labels (Robert
@@ -1384,7 +1384,7 @@ Version 3.0.1
 Version 3.0.0
 =============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Fix build when randr is not available (Federico Mena
 	  Quintero)
@@ -1401,7 +1401,7 @@ Version 3.0.0
 Version 2.91.93
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Revert "Force property update when doing new crossfade
           frame" (Cosimo Cecchi)
@@ -1410,7 +1410,7 @@ Version 2.91.93
 Version 2.91.92
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Force property update when doing new crossfade frame (Ray Strode)
 	* Use picture-uri GSettings key (Bastien Nocera)
@@ -1430,7 +1430,7 @@ Version 2.91.92
 Version 2.91.91
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Introspection build improvement (Benjamin Otte)
 
@@ -1448,7 +1448,7 @@ Version 2.91.91
 Version 2.91.90
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Fix refcount issues in GnomeRRLabeler (Bastien Nocera)
 	* GnomeBG: Fix background cache (Vincent)
@@ -1484,14 +1484,14 @@ Version 2.91.6.1
 Version 2.91.6
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
         * Prevent gnome-settings-daemon from crashing at startup
 
 ==============
 Version 2.91.5
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
         * gnome-desktop-utils has been ported to GSettings (#638169)
         * GnomeRRScreen, GnomeRRConfig and GnomeOutputInfo have been
           turned into a GObjects (#630913)  API change!
@@ -1511,7 +1511,7 @@ Version 2.91.4
 Note to distributors: gnome-about got removed, and is replaced by a System
 Information panel in gnome-control-center.
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Adapt to GTK+ 3 changes (Benjamin Otte)
 
@@ -1531,7 +1531,7 @@ Information panel in gnome-control-center.
 Version 2.91.3
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Add API to ensure primary display is set in config (William Jon McCann)
 	* Add cache for resized wallpapers (to help CPU usage on startup) (Didier Roche)
@@ -1541,9 +1541,9 @@ Version 2.91.3
 Version 2.91.2
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
-        * Move include files to libgnome-desktop/ (Giovanni Campagna)
+        * Move include files to libscarecrow-desktop/ (Giovanni Campagna)
 	* Fix possible double-free when destroying private windows (Bastien Nocera)
 	* Fix include path for API docs (Bastien Nocera)
 
@@ -1559,7 +1559,7 @@ Version 2.91.2
 Version 2.91.1
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Make the RR labels honor workarea so they don't
 	  appear over/under panels (William Jon McCann)
@@ -1582,7 +1582,7 @@ Version 2.91.1
 Version 2.91.0
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Force a refresh of timestamps so other clients won't think
 	  this is a server-generated event (Ray Strode)
@@ -1617,7 +1617,7 @@ gnome-desktop. You can use the --disable-gnome-about and --disable-desktop-docs
 configure flags for this.
 
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Don't use deprecated Gdk drawing APIs (Benjamin Otte)
 	* Drop GnomeDesktopItem API (Vincent)
@@ -1629,7 +1629,7 @@ configure flags for this.
 	* Update man page (Vincent)
   Misc
 
-	* Use $(datadir)/libgnome-desktop-3.0 for library datadir (Vincent)
+	* Use $(datadir)/libscarecrow-desktop-3.0 for library datadir (Vincent)
 	* Add --disable-gnome-about configure flag (Vincent)
 	* Remove old icons installed in /usr/share/pixmaps (Vincent)
 	* Add --disable-desktop-docs configure flag (Vincent)
@@ -1676,7 +1676,7 @@ Version 2.90.4
 Version 2.90.1
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Fix parallel installation of the developer documentation
 
@@ -1684,7 +1684,7 @@ Version 2.90.1
 Version 2.90.0
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Port to GTK+ 3.0, should be parallel installable with
 	  the GTK 2.x version, bar gnome-about
@@ -1693,7 +1693,7 @@ Version 2.90.0
 Version 2.31.2
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Improve errors from the CRTC assignment process
 	  (Federico Mena Quintero)
@@ -1723,7 +1723,7 @@ Version 2.31.2
 Version 2.30.0
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Fix build failure with GTK 2.19+ (Rob Taylor)
 	* GnomeRR: Fix build with -DGSEAL_ENABLE (Vincent)
@@ -1763,7 +1763,7 @@ Version 2.30.0
 Version 2.29.92
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Add new API gnome_rr_output_get_connector_type() and
 	  gnome_rr_output_is_laptop() (Federico Mena Quintero, Matthias Clasen)
@@ -1803,7 +1803,7 @@ Version 2.29.92
 Version 2.29.91
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeBG: Fix a memory leak (Matthias Clasen)
 	* GnomeBG: Add a picture option to make the background span monitors
@@ -1841,7 +1841,7 @@ Version 2.29.6
 Version 2.29.5
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Bump library soname since ABI was broken in 2.29.4 (Vincent)
 
@@ -1849,7 +1849,7 @@ Version 2.29.5
 Version 2.29.4
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Per-monitor background support (William Jon McCann)
 	* Memory leak fixes (William Jon McCann)
@@ -1870,7 +1870,7 @@ Version 2.29.3
 Version 2.29.2
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Allow rotation if the virtual size has the correct number of
 	  pixels (Federico Mena Quintero)
@@ -1945,7 +1945,7 @@ Version 2.27.92
 Version 2.27.91
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: add support for primary monitor (Matthias Clasen)
 	* GnomeRR: in clone mode, don't label each output (Federico Mena
@@ -1980,14 +1980,14 @@ Version 2.27.91
 Version 2.27.5
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Thumbnail: Fix thumbnailer thread-safety (Dan Winship)
 	* GnomeRR: Get monitor vendor name from pnp.ids (Matthias Clasen)
 
   gnome-about
 
-	* Remove libgnome usage (Frédéric Péters)
+	* Remove libscarecrow usage (Frédéric Péters)
 
   Misc
 
@@ -2003,7 +2003,7 @@ Version 2.27.5
 Version 2.27.4
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Adapt to RANDR 1.3's name for the EDID property (Adam Jackson)
 
@@ -2015,7 +2015,7 @@ Version 2.27.4
 Version 2.27.3
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Only select for RRScreenChangeNotifyMask, not for the more
 	  detailed RANDR 1.2 events (Federico Mena Quintero)
@@ -2042,7 +2042,7 @@ Version 2.27.3
 Version 2.26.2
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Thumbnail: Preload /gnome/desktop/thumbnails in thumbnail factory for
 	  performance (Alexander Larsson)
@@ -2073,7 +2073,7 @@ Version 2.26.2
 Version 2.26.1
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeBG: handle X errors when the root properties point to something
 	  wrong when getting the root pixmap (Alexander Larsson)
@@ -2109,7 +2109,7 @@ Version 2.26.1
 Version 2.26.0
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: rab the X server while tweaking the RANDR configuration.
 	  (Federico Mena Quintero)
@@ -2137,7 +2137,7 @@ Version 2.26.0
 Version 2.25.92
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeBG: Allow apps to ignore a pending change so they can avoid
 	  updating their background twice (Alexander Larsson)
@@ -2212,7 +2212,7 @@ Version 2.25.91
 Version 2.25.90
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: Create a backup file of the configuration when saving
 	  (Federico Mena Quintero)
@@ -2237,7 +2237,7 @@ Version 2.25.90
 Version 2.25.5
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeBG: use gdk_color_equal() instead of custom function (Vincent)
 	* GnomeRR: use XRRGetScreenResourcesCurrent instead of
@@ -2275,7 +2275,7 @@ Version 2.25.3
 
 Note to distributors: the API break is in GnomeRR.
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: plug leaks (Matthias Clasen)
 	* GnomeRR: add API-breaking error reporting API (Federico Mena
@@ -2293,7 +2293,7 @@ Note to distributors: the API break is in GnomeRR.
 Version 2.25.2
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeDesktopThumbnail: reenable check for preview::icon (Vincent)
 	* GnomeRR: add Lenovo display name (Søren Sandmann)
@@ -2318,7 +2318,7 @@ Version 2.25.1.1
 
 Quick release to not depend on an unreleased glib.
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeDesktopThumbnail: disable check for preview::icon, since it's
 	  not available in glib 2.18 (Vincent)
@@ -2331,15 +2331,15 @@ Quick release to not depend on an unreleased glib.
 Version 2.25.1
 ==============
 
-Note: this release breaks API and ABI, so we can stop depending on libgnome.
+Note: this release breaks API and ABI, so we can stop depending on libscarecrow.
 We also lose backwards compatibility for GNOME 1 and KDE 2 icons in desktop
 files in GnomeDesktopItem (GKeyFile doesn't support this anyway).
 
-  libgnome-desktop
+  libscarecrow-desktop
 
-	* Remove all libgnome usage (Alex Larsson)
-	* GnomeDesktopThumbnail: new, copied from libgnome* (Alex Larsson)
-	* Add gnome_desktop_prepend_terminal_to_vector(), copied from libgnome
+	* Remove all libscarecrow usage (Alex Larsson)
+	* GnomeDesktopThumbnail: new, copied from libscarecrow* (Alex Larsson)
+	* Add gnome_desktop_prepend_terminal_to_vector(), copied from libscarecrow
 	  (Alex Larsson)
 	* Remove GnomeDItemEdit and GnomeHint objects (Alex Larsson)
 	* GnomeRR: new API to support fn-F7 (Søren Sandmann)
@@ -2350,7 +2350,7 @@ files in GnomeDesktopItem (GKeyFile doesn't support this anyway).
 
   Misc
 
-	* Remove dependencies on libxml and libgnome*
+	* Remove dependencies on libxml and libscarecrow*
 	* Require glib 2.19
 
   Doc Translations
@@ -2366,7 +2366,7 @@ files in GnomeDesktopItem (GKeyFile doesn't support this anyway).
 Version 2.24.0
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: don't try and set the screen size if turning off any of the
 	  CRTC's failed (Søren Sandmann)
@@ -2397,7 +2397,7 @@ Version 2.24.0
 Version 2.23.92
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeRR: fix compilation on Solaris (Vincent)
 
@@ -2419,7 +2419,7 @@ Version 2.23.92
 Version 2.23.91
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Fix leak (Matthias Clasen)
 	* GnomeRR: allow E-EDID blocks (Adam Jackson)
@@ -2443,7 +2443,7 @@ Version 2.23.91
 Version 2.23.90
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Implement support for randr monitor labeling (Federico Mena Quintero)
 	* Ensure it build with GTK_DISABLE_SINGLE_INCLUDES (Felix Riemann)
@@ -2466,7 +2466,7 @@ Version 2.23.90
 Version 2.23.6
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Fix build with gcc 2.x (Jens Granseuer)
 	* GnomeBG: fix handling of empty filenames (Søren Sandmann)
@@ -2489,7 +2489,7 @@ Version 2.23.5
 New API to handle randr configuration has been added.
 
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* New GnomeRR* API (Søren Sandmann & others)
 	* Stop using deprecated GTK+ macros (Christian Persch)
@@ -2533,7 +2533,7 @@ Version 2.23.4
 Version 2.23.3
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* GnomeBG: Fix some logic errors wrt to caching of slideshows that may
 	  cause nautilus crashes (Matthias Clasen)
@@ -2558,7 +2558,7 @@ Version 2.23.3
 Version 2.23.2
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Do not force the top-left corner of the image to fit in
 	  the screen, so that zoomed image appears to be zoomed from the center
@@ -2587,7 +2587,7 @@ Version 2.23.1
 Version 2.22.1
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Fix compiler warnings (Kjartan Maraas)
 	* Handle start time in the future correctly in GnomeBG
@@ -2625,7 +2625,7 @@ Version 2.22.0
 Version 2.21.92
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Fix crash in GnomeBG (Joe Marcus Clarke)
 	* Fix GnomeBG gio port (Sebastien Bacher)
@@ -2662,7 +2662,7 @@ Version 2.21.92
 Version 2.21.91
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Fix invalid read (Vincent)
 	* Fix compilation issue caused by some headers (Vincent)
@@ -2695,7 +2695,7 @@ Version 2.21.91
 Version 2.21.90
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Add GNOME_DESKTOP_USE_UNSTABLE_API API guard for GnomeBg
 	  (Søren Sandmann)
@@ -2744,7 +2744,7 @@ Version 2.21.5
 Version 2.21.4
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* New GnomeBG API (Søren Sandmann)
 
@@ -2775,7 +2775,7 @@ Version 2.21.2
 
   Misc
 
-	* The libgnomecanvas dependency has been removed.
+	* The libscarecrowcanvas dependency has been removed.
 
   Translators
 
@@ -2786,7 +2786,7 @@ Version 2.21.2
 Version 2.20.1
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Fix leak (Glynn Foster, Dan Mick)
 
@@ -2885,7 +2885,7 @@ Version 2.19.5
 	  (but does nothing for now since the api.gnome.org page is not up)
 	  (Vincent)
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Use gtk_widget_set_tooltip_text() (Vincent)
 
@@ -2916,7 +2916,7 @@ Version 2.19.4
 
 	* Use g_timeout_add_seconds() when possible (Vincent)
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Use g_timeout_add_seconds() when possible (Vincent)
 	* Migrate to new tooltip API
@@ -2991,7 +2991,7 @@ Version 2.18.1
 
 	* Add names of 14 contributors! (Vincent)
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Fix undefined reference in deprecated code (Kjartan Maraas)
 
@@ -3018,7 +3018,7 @@ Version 2.18.0
 	* Add names of 180 contributors! (Vincent)
 	* Remove invalid category in .desktop file (Christian Kirbach)
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Add missing license headers in some files (Vincent)
 
@@ -3054,7 +3054,7 @@ Version 2.18.0
 Version 2.17.92
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Fix crash when launching a .desktop file (Padraig O'Briain)
 
@@ -3120,7 +3120,7 @@ Version 2.17.5
 	* Fix compiler warnings (Christian Persch)
 	* Do not call deprecated functions (Christian Persch)
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Make it possible to let caller handle reaping child process when
 	  launching a desktop file (Tom Tromey)
@@ -3679,7 +3679,7 @@ Version 2.9.92
 Version 2.9.91
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* New gnome_desktop_item_set_launch_time() API (Elijah Newren, Mark)
 
@@ -3732,7 +3732,7 @@ Version 2.9.4
 	* Fix compiler warning (Kjartan)
 	* distcheck fixing (Mark)
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Don't append invalid URIs to command line when launching (Vijaykumar Patwari)
 
@@ -3845,7 +3845,7 @@ Version 2.7.4
   Fixes
 
 	* Use the correct X timestamp with startup-notification (Elijah Newren, Mark)
-	* Remove egg_spawn usage from libgnome-desktop (Mark)
+	* Remove egg_spawn usage from libscarecrow-desktop (Mark)
 	* Fix DTD validation errors in omf files (Frederic Crozat, Mariano Suárez-Alvarez)
 
   Translators
@@ -3934,7 +3934,7 @@ Version 2.5.92
 Version 2.5.91
 ==============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Fix issue where dragging a file from an nfs mounted dir onto
 	  a launcher wouldn't work (Mark)
@@ -3981,7 +3981,7 @@ Version 2.5.4
 	* Set intro text as non-editable (Fernando Herrera)
 	* Plug some leaks (Kjartan Maraas)
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Include correct i18n header to fix warnings (The Written Word)
 
@@ -4019,7 +4019,7 @@ Version 2.5.3
 Version 2.5.2
 =============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Handle g_filename_from_utf8() failure (Dennis Cranston)
 
@@ -4033,7 +4033,7 @@ Version 2.5.2
 Version 2.5.1
 =============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Remove unnecessary accessibility code (Padraig)
 	* Use the correct mnemonic widget for the command entry (Padraig)
@@ -4054,7 +4054,7 @@ Version 2.5.1
 Version 2.4.1.1
 ===============
 
-  libgnome-desktop
+  libscarecrow-desktop
 
 	* Make the localte keystring matching with the desktop entry
 	  specification by not removing the modifier from the
@@ -4323,7 +4323,7 @@ Translations
 Version 2.2.2
 =============
 
-libgnome-desktop
+libscarecrow-desktop
 
 	* Don't unescape special characteres (e.g. %20) (Bala)
 
@@ -4336,7 +4336,7 @@ Translations
 Version 2.2.1
 =============
 
-libgnome-desktop
+libscarecrow-desktop
 
 	* Fix issue with gettext (Frederic Crozat)
 	* Don't crash when adding translations to a new Ditem (Arvind)
@@ -4407,7 +4407,7 @@ Translations
 Version 2.1.4
 =============
 
-libgnome-desktop
+libscarecrow-desktop
 
 	* Make startup notification work (Havoc)
 	* Add api for multiscreen dnd launching (Satyajit Kanungo)
@@ -4430,7 +4430,7 @@ Translations
 Version 2.1.3
 =============
 
-libgnome-desktop
+libscarecrow-desktop
 
 	* Add ditem_launch_on_screen() for startup notification (Mark)
 	* s/Mime/MIME/ (Mark)
@@ -4454,7 +4454,7 @@ Translations
 Version 2.1.2
 =============
 
-	* Add startup notification support to libgnome-desktop (Havoc)
+	* Add startup notification support to libscarecrow-desktop (Havoc)
 	* Replaced GNOME logos with the new version (Denis Cranston)
 
 Translations
@@ -4613,7 +4613,7 @@ Translations
 Version 1.5.22
 ==============
 
-libgnome-desktop
+libscarecrow-desktop
 
 	* Make translations in GnomeDitemEdit work (Frank Worsley)
 
@@ -4626,7 +4626,7 @@ Translations
 Version 1.5.21
 ==============
 
-libgnome-desktop
+libscarecrow-desktop
 
 	* Much IconLoader work and DesktopItem integration (Alex)
 	* Fix translating wrong strings (George)
@@ -4660,7 +4660,7 @@ Translations
 Version 1.5.19
 ==============
 
-libgnome-desktop
+libscarecrow-desktop
 
 	* implementation of the new icon spec (Alex)
 	* i18n fix (Toschi)
@@ -4692,7 +4692,7 @@ Translations
 Version 1.5.17
 ==============
 
-libgnome-desktop
+libscarecrow-desktop
 
 	* Change 'Type' combo box to an option menu (George)
 	* Temporarily ignore '%m' and '%i' to KDE .desktops work (George)
@@ -4713,7 +4713,7 @@ Translations
 Version 1.5.16
 ==============
 
-libgnome-desktop
+libscarecrow-desktop
 
 	* Make the 'Command' entry browsable (George)
 	* Some URL based .desktop editing fixes (George)
@@ -4742,7 +4742,7 @@ gnome-about
 	* Redo the scrolling effect (Mark)
 	* Use the font from the widget style (Deepa natarajan)
 
-libgnome-desktop
+libscarecrow-desktop
 
 	* Get Exec args working (Mark)
 	* Add GenericName .desktop key (George)
@@ -4771,7 +4771,7 @@ Translations
 Version 1.5.13
 ==============
 
-libgnome-desktop
+libscarecrow-desktop
 
 	* Null key chomping fix (Richard Hestilow)
 	* Tooltips and atk relation patch (Jayaraj Rajappan)
@@ -4791,7 +4791,7 @@ Translations
 Version 1.5.12
 ==============
 
-libgnome-desktop
+libscarecrow-desktop
 
 	* Fix warnings (Mark)
 	* Setup some a test for ditem-edit (Mark)
@@ -4812,7 +4812,7 @@ Translations
 Version 1.5.11
 ==============
 
-libgnome-desktop
+libscarecrow-desktop
 
 	* impl gnome_desktop_item_new_from_string + cleanups (Darin)
 	* create ditem-edit treeview correctly (Mark)
@@ -4904,7 +4904,7 @@ Misc
 	* .desktop files fixing (Mark)
 	* distcheck fixes (Mark)
 	* use intltool to translate .desktop files (Gediminas)
-	* plug libgnome-desktop leaks (Mark)
+	* plug libscarecrow-desktop leaks (Mark)
 	* gsm build fix (Jacob)
 	* logout dialog box usability fix (Gediminas)
 	* gnome-login-check dns simplification (Mark)

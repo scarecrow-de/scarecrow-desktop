@@ -7,7 +7,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-desktop/gpl\n"
+"Project-Id-Version: scarecrow-desktop/gpl\n"
 "POT-Creation-Date: 2017-06-28 17:28+0000\n"
 "PO-Revision-Date: 2017-09-02 17:31+0300\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
