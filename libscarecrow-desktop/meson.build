@@ -113,8 +113,8 @@ gnome.generate_gir(libscarecrow_desktop,
   nsversion: '3.0',
   includes: ['GObject-2.0', 'Gtk-3.0', 'GDesktopEnums-3.0'],
   extra_args: '-DGNOME_DESKTOP_USE_UNSTABLE_API',
-  identifier_prefix: 'Gnome',
-  symbol_prefix: 'gnome',
+  identifier_prefix: ['Gnome', 'Scarecrow'],
+  symbol_prefix: ['gnome', 'scarecrow'],
   install: true
 )
 
