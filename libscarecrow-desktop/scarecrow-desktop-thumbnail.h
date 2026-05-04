@@ -27,7 +27,7 @@
 #define GNOME_DESKTOP_THUMBNAIL_H
 
 #ifndef GNOME_DESKTOP_USE_UNSTABLE_API
-#error    GnomeDesktopThumbnail is unstable API. You must define GNOME_DESKTOP_USE_UNSTABLE_API before including scarecrow-desktop-thumbnail.h
+#error    ScarecrowDesktopThumbnail is unstable API. You must define GNOME_DESKTOP_USE_UNSTABLE_API before including scarecrow-desktop-thumbnail.h
 #endif
 
 #include <glib.h>
@@ -40,52 +40,52 @@ G_BEGIN_DECLS
 typedef enum {
   GNOME_DESKTOP_THUMBNAIL_SIZE_NORMAL,
   GNOME_DESKTOP_THUMBNAIL_SIZE_LARGE
-} GnomeDesktopThumbnailSize;
+} ScarecrowDesktopThumbnailSize;
 
 #define GNOME_DESKTOP_TYPE_THUMBNAIL_FACTORY		(gnome_desktop_thumbnail_factory_get_type ())
-#define GNOME_DESKTOP_THUMBNAIL_FACTORY(obj)	(G_TYPE_CHECK_INSTANCE_CAST ((obj), GNOME_DESKTOP_TYPE_THUMBNAIL_FACTORY, GnomeDesktopThumbnailFactory))
-#define GNOME_DESKTOP_THUMBNAIL_FACTORY_CLASS(klass)	(G_TYPE_CHECK_CLASS_CAST ((klass), GNOME_DESKTOP_TYPE_THUMBNAIL_FACTORY, GnomeDesktopThumbnailFactoryClass))
+#define GNOME_DESKTOP_THUMBNAIL_FACTORY(obj)	(G_TYPE_CHECK_INSTANCE_CAST ((obj), GNOME_DESKTOP_TYPE_THUMBNAIL_FACTORY, ScarecrowDesktopThumbnailFactory))
+#define GNOME_DESKTOP_THUMBNAIL_FACTORY_CLASS(klass)	(G_TYPE_CHECK_CLASS_CAST ((klass), GNOME_DESKTOP_TYPE_THUMBNAIL_FACTORY, ScarecrowDesktopThumbnailFactoryClass))
 #define GNOME_DESKTOP_IS_THUMBNAIL_FACTORY(obj)		(G_TYPE_INSTANCE_CHECK_TYPE ((obj), GNOME_DESKTOP_TYPE_THUMBNAIL_FACTORY))
 #define GNOME_DESKTOP_IS_THUMBNAIL_FACTORY_CLASS(klass)	(G_TYPE_CLASS_CHECK_CLASS_TYPE ((klass), GNOME_DESKTOP_TYPE_THUMBNAIL_FACTORY))
 
-typedef struct _GnomeDesktopThumbnailFactory        GnomeDesktopThumbnailFactory;
-typedef struct _GnomeDesktopThumbnailFactoryClass   GnomeDesktopThumbnailFactoryClass;
-typedef struct _GnomeDesktopThumbnailFactoryPrivate GnomeDesktopThumbnailFactoryPrivate;
+typedef struct _ScarecrowDesktopThumbnailFactory        ScarecrowDesktopThumbnailFactory;
+typedef struct _ScarecrowDesktopThumbnailFactoryClass   ScarecrowDesktopThumbnailFactoryClass;
+typedef struct _ScarecrowDesktopThumbnailFactoryPrivate ScarecrowDesktopThumbnailFactoryPrivate;
 
-struct _GnomeDesktopThumbnailFactory {
+struct _ScarecrowDesktopThumbnailFactory {
 	GObject parent;
 
-	GnomeDesktopThumbnailFactoryPrivate *priv;
+	ScarecrowDesktopThumbnailFactoryPrivate *priv;
 };
 
-struct _GnomeDesktopThumbnailFactoryClass {
+struct _ScarecrowDesktopThumbnailFactoryClass {
 	GObjectClass parent;
 };
 
-G_DEFINE_AUTOPTR_CLEANUP_FUNC(GnomeDesktopThumbnailFactory, g_object_unref)
+G_DEFINE_AUTOPTR_CLEANUP_FUNC(ScarecrowDesktopThumbnailFactory, g_object_unref)
 
 GType                  gnome_desktop_thumbnail_factory_get_type (void);
-GnomeDesktopThumbnailFactory *gnome_desktop_thumbnail_factory_new      (GnomeDesktopThumbnailSize     size);
+ScarecrowDesktopThumbnailFactory *gnome_desktop_thumbnail_factory_new      (ScarecrowDesktopThumbnailSize     size);
 
-char *                 gnome_desktop_thumbnail_factory_lookup   (GnomeDesktopThumbnailFactory *factory,
+char *                 gnome_desktop_thumbnail_factory_lookup   (ScarecrowDesktopThumbnailFactory *factory,
 								 const char            *uri,
 								 time_t                 mtime);
 
-gboolean               gnome_desktop_thumbnail_factory_has_valid_failed_thumbnail (GnomeDesktopThumbnailFactory *factory,
+gboolean               gnome_desktop_thumbnail_factory_has_valid_failed_thumbnail (ScarecrowDesktopThumbnailFactory *factory,
 										   const char            *uri,
 										   time_t                 mtime);
-gboolean               gnome_desktop_thumbnail_factory_can_thumbnail (GnomeDesktopThumbnailFactory *factory,
+gboolean               gnome_desktop_thumbnail_factory_can_thumbnail (ScarecrowDesktopThumbnailFactory *factory,
 								      const char            *uri,
 								      const char            *mime_type,
 								      time_t                 mtime);
-GdkPixbuf *            gnome_desktop_thumbnail_factory_generate_thumbnail (GnomeDesktopThumbnailFactory *factory,
+GdkPixbuf *            gnome_desktop_thumbnail_factory_generate_thumbnail (ScarecrowDesktopThumbnailFactory *factory,
 									   const char            *uri,
 									   const char            *mime_type);
-void                   gnome_desktop_thumbnail_factory_save_thumbnail (GnomeDesktopThumbnailFactory *factory,
+void                   gnome_desktop_thumbnail_factory_save_thumbnail (ScarecrowDesktopThumbnailFactory *factory,
 								       GdkPixbuf             *thumbnail,
 								       const char            *uri,
 								       time_t                 original_mtime);
-void                   gnome_desktop_thumbnail_factory_create_failed_thumbnail (GnomeDesktopThumbnailFactory *factory,
+void                   gnome_desktop_thumbnail_factory_create_failed_thumbnail (ScarecrowDesktopThumbnailFactory *factory,
 										const char            *uri,
 										time_t                 mtime);
 
@@ -95,7 +95,7 @@ gboolean   gnome_desktop_thumbnail_is_valid          (GdkPixbuf          *pixbuf
 						      const char         *uri,
 						      time_t              mtime);
 char *     gnome_desktop_thumbnail_path_for_uri      (const char         *uri,
-						      GnomeDesktopThumbnailSize  size);
+						      ScarecrowDesktopThumbnailSize  size);
 
 G_END_DECLS
 

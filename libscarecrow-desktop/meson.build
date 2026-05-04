@@ -1,5 +1,5 @@
 libargs = [
-  '-DG_LOG_DOMAIN="GnomeDesktop"',
+  '-DG_LOG_DOMAIN="ScarecrowDesktop"',
   '-DGDK_DISABLE_DEPRECATION_WARNINGS',
   '-DGTK_DISABLE_DEPRECATION_WARNINGS',
   '-DGNOMELOCALEDIR="@0@"'.format(localedir),
@@ -109,7 +109,7 @@ libscarecrow_desktop_dep = declare_dependency(
 gnome.generate_gir(libscarecrow_desktop,
   sources: introspection_sources + libscarecrow_desktop_headers,
   export_packages: 'scarecrow-desktop-3.0',
-  namespace: 'GnomeDesktop',
+  namespace: 'ScarecrowDesktop',
   nsversion: '3.0',
   includes: ['GObject-2.0', 'Gtk-3.0', 'GDesktopEnums-3.0'],
   extra_args: '-DGNOME_DESKTOP_USE_UNSTABLE_API',

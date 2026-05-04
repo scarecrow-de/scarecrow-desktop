@@ -27,7 +27,7 @@
 int main (int argc, char **argv)
 {
 	GdkPixbuf *pixbuf;
-	GnomeDesktopThumbnailFactory *factory;
+	ScarecrowDesktopThumbnailFactory *factory;
 	char *content_type;
 	g_autoptr(GFile) file = NULL;
 	g_autofree char *path = NULL;
