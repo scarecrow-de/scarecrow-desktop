@@ -378,7 +378,7 @@ Wed Oct  8 21:05:22 2008  Søren Sandmann  <sandmann@redhat.com>
         * gnome-thumbnail-pixbuf-utils.c: Added.
         * libscarecrowui/scarecrow-desktop-thumbnail.h: Added.
 	Added a copy of gnome-thumbnail from libscarecrowui, renamed
-	to ScarecrowDesktopThumbnail.
+	to GnomeDesktopThumbnail.
 	
         * scarecrow-desktop-utils.c: Added.
         * libscarecrow/scarecrow-desktop-utils.h: Added.
@@ -395,7 +395,7 @@ Wed Oct  8 21:05:22 2008  Søren Sandmann  <sandmann@redhat.com>
 	
         * gnome-bg.c:
         * libscarecrowui/gnome-bg.h:
-	Use ScarecrowDesktopThumbnail instead of GnomeThumbnail
+	Use GnomeDesktopThumbnail instead of GnomeThumbnail
 	
         * scarecrow-desktop-2.0.pc.in:
 	Remove libscarecrowui dependency
@@ -909,7 +909,7 @@ Tue Nov 13 17:48:13 2007  Søren Sandmann  <sandmann@redhat.com>
 	* scarecrow-desktop-item.c (ditem_execute): Added do_not_reap_child
 	argument.
 	(gnome_desktop_item_launch_on_screen_with_env): Handle new flag.
-	* libscarecrow/scarecrow-desktop-item.h (ScarecrowDesktopItemLoadFlags): Added
+	* libscarecrow/scarecrow-desktop-item.h (GnomeDesktopItemLoadFlags): Added
 	GNOME_DESKTOP_ITEM_LAUNCH_DO_NOT_REAP_CHILD.
 
 ==================== 2.17.2 ====================
@@ -1330,7 +1330,7 @@ Tue Aug 05 15:22:05 2003  George Lebl <jirka@5z.com>
 	mime type checking. Fixes bug #105222.
 
 2003-02-27  Arvind Samptur <arvind.samptur@wipro.com>
-	* gnome-ditem-edit.c (translations_add) : Create a ScarecrowDesktopItem
+	* gnome-ditem-edit.c (translations_add) : Create a GnomeDesktopItem
 	if it does not exists before checking up for locale stuff.
 	Fixes the crash. #107120
 
@@ -2193,11 +2193,11 @@ Tue Sep 04 23:06:06 2001  George Lebl <jirka@5z.com>
 
 2001-08-20  Martin Baulig  <baulig@suse.de>
 
-	* scarecrow-desktop-item.c (ScarecrowDesktopItem): Added `name', `comment'
+	* scarecrow-desktop-item.c (GnomeDesktopItem): Added `name', `comment'
 	and `attributes' hash tables; copy all the CORBA sequences into these
 	hash tables to make the lookup faster.
 
-	* scarecrow-desktop-item.h: Make all `ScarecrowDesktopItem *'s non-const.
+	* scarecrow-desktop-item.h: Make all `GnomeDesktopItem *'s non-const.
 
 2001-08-20  Martin Baulig  <baulig@suse.de>
 

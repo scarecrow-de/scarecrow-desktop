@@ -34,10 +34,10 @@ GNOME_BG_GET_CLASS
 
 <SECTION>
 <FILE>scarecrow-desktop-thumbnail</FILE>
-<TITLE>ScarecrowDesktopThumbnailFactory</TITLE>
-ScarecrowDesktopThumbnailSize
-ScarecrowDesktopThumbnailFactory
-ScarecrowDesktopThumbnailFactoryClass
+<TITLE>GnomeDesktopThumbnailFactory</TITLE>
+GnomeDesktopThumbnailSize
+GnomeDesktopThumbnailFactory
+GnomeDesktopThumbnailFactoryClass
 gnome_desktop_thumbnail_factory_new
 gnome_desktop_thumbnail_factory_lookup
 gnome_desktop_thumbnail_factory_has_valid_failed_thumbnail
@@ -50,7 +50,7 @@ gnome_desktop_thumbnail_is_valid
 gnome_desktop_thumbnail_md5
 gnome_desktop_thumbnail_path_for_uri
 gnome_desktop_thumbnail_scale_down_pixbuf
-ScarecrowDesktopThumbnailFactoryPrivate
+GnomeDesktopThumbnailFactoryPrivate
 <SUBSECTION Standard>
 GNOME_DESKTOP_THUMBNAIL_FACTORY
 GNOME_DESKTOP_IS_THUMBNAIL_FACTORY

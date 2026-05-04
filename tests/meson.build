@@ -1,5 +1,5 @@
 test_args = [
-  '-DG_LOG_DOMAIN="ScarecrowDesktop"',
+  '-DG_LOG_DOMAIN="GnomeDesktop"',
   '-DGDK_DISABLE_DEPRECATED_WARNINGS',
   '-DGTK_DISABLE_DEPRECATED_WARNINGS',
   '-DINSTALLED_TEST_DIR="@0@"'.format(test_execdir)
