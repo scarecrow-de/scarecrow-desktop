@@ -22,7 +22,7 @@
 #define _GNOME_SYSTEMD_H
 
 #ifndef GNOME_DESKTOP_USE_UNSTABLE_API
-#error    ScarecrowDesktopSystemd is unstable API. You must define GNOME_DESKTOP_USE_UNSTABLE_API before including scarecrow-systemd.h
+#error    GnomeDesktopSystemd is unstable API. You must define GNOME_DESKTOP_USE_UNSTABLE_API before including scarecrow-systemd.h
 #endif
 
 #include <gio/gio.h>
