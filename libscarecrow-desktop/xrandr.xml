@@ -3,14 +3,14 @@
 'http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd'>
 <node>
   <!--
-      io.github.scarecrow_de.Mutter.DisplayConfig:
+      io.github.scarecrow_de.Vater.DisplayConfig:
       @short_description: display configuration interface
 
       This interface is used by mutter and gnome-settings-daemon
       to apply multiple monitor configuration.
   -->
 
-  <interface name="io.github.scarecrow_de.Mutter.DisplayConfig">
+  <interface name="io.github.scarecrow_de.Vater.DisplayConfig">
 
     <!--
         GetResources:

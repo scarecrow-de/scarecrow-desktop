@@ -3,14 +3,14 @@
 'http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd'>
 <node>
   <!--
-      io.github.scarecrow_de.Mutter.IdleMonitor:
+      io.github.scarecrow_de.Vater.IdleMonitor:
       @short_description: idle monitor interface
 
       This interface is used by scarecrow-desktop to implement
       user activity monitoring.
   -->
 
-  <interface name="io.github.scarecrow_de.Mutter.IdleMonitor">
+  <interface name="io.github.scarecrow_de.Vater.IdleMonitor">
     <method name="GetIdletime">
       <arg name="idletime" direction="out" type="t"/>
     </method>

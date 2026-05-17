@@ -28,13 +28,13 @@ introspection_sources = [
 dbus_xrandr_built_sources = gnome.gdbus_codegen('meta-dbus-xrandr',
   'xrandr.xml',
   namespace: 'MetaDBus',
-  interface_prefix: 'io.github.scarecrow_de.Mutter'
+  interface_prefix: 'io.github.scarecrow_de.Vater'
 )
 
 dbus_idle_built_sources = gnome.gdbus_codegen('meta-dbus-idle-monitor',
   'idle-monitor.xml',
   namespace: 'MetaDBus',
-  interface_prefix: 'io.github.scarecrow_de.Mutter',
+  interface_prefix: 'io.github.scarecrow_de.Vater',
   object_manager: true
 )
 

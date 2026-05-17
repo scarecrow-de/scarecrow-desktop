@@ -699,8 +699,8 @@ gnome_rr_screen_initable_init (GInitable *initable, GCancellable *canc, GError *
 
     proxy = meta_dbus_display_config_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
 							     G_DBUS_PROXY_FLAGS_NONE,
-							     "io.github.scarecrow_de.Mutter.DisplayConfig",
-							     "/io/github/scarecrow_de/Mutter/DisplayConfig",
+							     "io.github.scarecrow_de.Vater.DisplayConfig",
+							     "/io/github/scarecrow_de/Vater/DisplayConfig",
 							     NULL, error);
     if (!proxy)
 	return FALSE;
@@ -763,8 +763,8 @@ on_name_appeared (GDBusConnection *connection,
 
     meta_dbus_display_config_proxy_new_for_bus (G_BUS_TYPE_SESSION,
                                                 G_DBUS_PROXY_FLAGS_NONE,
-                                                "io.github.scarecrow_de.Mutter.DisplayConfig",
-                                                "/io/github/scarecrow_de/Mutter/DisplayConfig",
+                                                "io.github.scarecrow_de.Vater.DisplayConfig",
+                                                "/io/github/scarecrow_de/Vater/DisplayConfig",
                                                 g_task_get_cancellable (task),
                                                 on_proxy_acquired, g_object_ref (task));
 
@@ -785,7 +785,7 @@ gnome_rr_screen_async_initable_init_async (GAsyncInitable      *initable,
     task = g_task_new (self, canc, callback, user_data);
 
     priv->init_name_watch_id = g_bus_watch_name (G_BUS_TYPE_SESSION,
-                                                 "io.github.scarecrow_de.Mutter.DisplayConfig",
+                                                 "io.github.scarecrow_de.Vater.DisplayConfig",
                                                  G_BUS_NAME_WATCHER_FLAGS_NONE,
                                                  on_name_appeared,
                                                  NULL,
