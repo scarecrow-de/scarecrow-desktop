@@ -1,5 +1,5 @@
 option('gnome_distributor',
-  type: 'string', value: 'GNOME.Org',
+  type: 'string', value: 'Scarecrow',
   description: 'Specify name of GNOME distributor'
 )
 
