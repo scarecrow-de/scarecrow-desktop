@@ -37,7 +37,7 @@ liblocaledir = join_paths(get_option('prefix'), 'lib', 'locale')
 localedir = join_paths(datadir, 'locale')
 test_metadir = join_paths(datadir, 'installed-tests', meson.project_name())
 test_execdir = join_paths(libexecdir, 'installed-tests', meson.project_name())
-versiondir = join_paths(datadir, 'gnome')
+versiondir = join_paths(datadir, 'scarecrow')
 
 gdk_pixbuf_dep = dependency('gdk-pixbuf-2.0', version: gdk_pixbuf_req)
 gtk_dep = dependency('gtk+-3.0', version: gtk_req)
