@@ -31,10 +31,10 @@
 
 #include <gdk/gdk.h>
 #include <gio/gio.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 #include <libscarecrow-desktop/scarecrow-desktop-thumbnail.h>
 #include <libscarecrow-desktop/scarecrow-bg-crossfade.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 
 G_BEGIN_DECLS
 

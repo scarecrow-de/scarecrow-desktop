@@ -31,7 +31,7 @@
 #endif
 
 #include <gio/gio.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 
 G_BEGIN_DECLS
 

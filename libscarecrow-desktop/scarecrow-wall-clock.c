@@ -29,7 +29,7 @@
 
 #define GNOME_DESKTOP_USE_UNSTABLE_API
 #include "scarecrow-wall-clock.h"
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 #include "scarecrow-datetime-source.h"
 
 struct _GnomeWallClockPrivate {
